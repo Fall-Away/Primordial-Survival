@@ -28,7 +28,7 @@ public class Bat : MonoBehaviour
     }
     IEnumerator RandomMove()
     {
-           transform.eulerAngles= new Vector3(0,0,0);
-           
+        transform.eulerAngles= new Vector3(0,0,0);
+        yield return null;
     }
 }
