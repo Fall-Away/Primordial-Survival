@@ -1,0 +1,804 @@
+fileFormatVersion: 2
+guid: ff3dce7695fba3d4882cdc3ba23a78e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1870173771385504564
+    second: "\uADFC\uC811 \uC801_0"
+  - first:
+      213: 3489556953626260570
+    second: "\uADFC\uC811 \uC801_1"
+  - first:
+      213: 8748047610789158984
+    second: "\uADFC\uC811 \uC801_2"
+  - first:
+      213: 3460413737331992585
+    second: "\uADFC\uC811 \uC801_3"
+  - first:
+      213: 2972585804602140050
+    second: "\uADFC\uC811 \uC801_4"
+  - first:
+      213: 5285204037123422420
+    second: "\uADFC\uC811 \uC801_5"
+  - first:
+      213: -3354007046602190491
+    second: "\uADFC\uC811 \uC801_6"
+  - first:
+      213: -7443861786560504138
+    second: "\uADFC\uC811 \uC801_7"
+  - first:
+      213: 7428304188157091872
+    second: "\uADFC\uC811 \uC801_8"
+  - first:
+      213: -4315281634102503525
+    second: "\uADFC\uC811 \uC801_9"
+  - first:
+      213: -7198523176087418460
+    second: "\uADFC\uC811 \uC801_10"
+  - first:
+      213: -9086694757847367851
+    second: "\uADFC\uC811 \uC801_11"
+  - first:
+      213: -4578254223369755842
+    second: "\uADFC\uC811 \uC801_12"
+  - first:
+      213: -3291489988841471482
+    second: "\uADFC\uC811 \uC801_13"
+  - first:
+      213: 4519396787011741634
+    second: "\uADFC\uC811 \uC801_14"
+  - first:
+      213: -8996065663904890123
+    second: "\uADFC\uC811 \uC801_15"
+  - first:
+      213: 6132839586302094804
+    second: "\uADFC\uC811 \uC801_16"
+  - first:
+      213: 1775290844500374219
+    second: "\uADFC\uC811 \uC801_17"
+  - first:
+      213: -1206770432740597353
+    second: "\uADFC\uC811 \uC801_18"
+  - first:
+      213: -4730835589898092266
+    second: "\uADFC\uC811 \uC801_19"
+  - first:
+      213: 5836860955189488589
+    second: "\uADFC\uC811 \uC801_20"
+  - first:
+      213: 4827860585884704497
+    second: "\uADFC\uC811 \uC801_21"
+  - first:
+      213: 1001402753608051803
+    second: "\uADFC\uC811 \uC801_22"
+  - first:
+      213: 4434389828518687856
+    second: "\uADFC\uC811 \uC801_23"
+  - first:
+      213: 988390374573984681
+    second: "\uADFC\uC811 \uC801_24"
+  - first:
+      213: -4395512034287208025
+    second: "\uADFC\uC811 \uC801_25"
+  - first:
+      213: 3720699514613485194
+    second: "\uADFC\uC811 \uC801_26"
+  - first:
+      213: -8795181562051612849
+    second: "\uADFC\uC811 \uC801_27"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_0"
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 86
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc70501ddecb06e0800000000000000
+      internalID: -1870173771385504564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_1"
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 86
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5433649f856d6030800000000000000
+      internalID: 3489556953626260570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_2"
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 87
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840ea4fe3fe476970800000000000000
+      internalID: 8748047610789158984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_3"
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 84
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9082e85c5fbd50030800000000000000
+      internalID: 3460413737331992585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_4"
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 81
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295eda33a0fb04920800000000000000
+      internalID: 2972585804602140050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_5"
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 84
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8b33ec111d85940800000000000000
+      internalID: 5285204037123422420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_6"
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 84
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5619e158c5c2471d0800000000000000
+      internalID: -3354007046602190491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_7"
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 84
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bed4f6f42712b890800000000000000
+      internalID: -7443861786560504138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_8"
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 84
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02066a26d43a61760800000000000000
+      internalID: 7428304188157091872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_9"
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 84
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b979d85973a0d14c0800000000000000
+      internalID: -4315281634102503525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_10"
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 84
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a984ed8f45b91c90800000000000000
+      internalID: -7198523176087418460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_11"
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 84
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f7a18d24395e180800000000000000
+      internalID: -9086694757847367851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_12"
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 50
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e332d9c5a06c670c0800000000000000
+      internalID: -4578254223369755842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_13"
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 53
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60289515b474252d0800000000000000
+      internalID: -3291489988841471482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_14"
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 44
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c760e8de6f18be30800000000000000
+      internalID: 4519396787011741634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_15"
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 34
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f24cde11fd872380800000000000000
+      internalID: -8996065663904890123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_16"
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 20
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd6dfd4c193c1550800000000000000
+      internalID: 6132839586302094804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_17"
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 40
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2b27ffd9913a810800000000000000
+      internalID: 1775290844500374219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_18"
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 20
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7916d076fa0b04fe0800000000000000
+      internalID: -1206770432740597353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_19"
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 22
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61149559812b85eb0800000000000000
+      internalID: -4730835589898092266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_20"
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 23
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbaa6d1d12b00150800000000000000
+      internalID: 5836860955189488589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_21"
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 24
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe54ceaf91000340800000000000000
+      internalID: 4827860585884704497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_22"
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 25
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ce7edaf72b5ed00800000000000000
+      internalID: 1001402753608051803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_23"
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 24
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074367cfd0e1a8d30800000000000000
+      internalID: 4434389828518687856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_24"
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 24
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abc5e71fc777bd00800000000000000
+      internalID: 988390374573984681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_25"
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 24
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a93b5ed7110003c0800000000000000
+      internalID: -4395512034287208025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_26"
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 24
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e4184de7492a330800000000000000
+      internalID: 3720699514613485194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uADFC\uC811 \uC801_27"
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 24
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f29dad7fc31f580800000000000000
+      internalID: -8795181562051612849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
