@@ -2,11 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemySpawnManager : MonoBehaviour
+public class EnemySpawnManager : MonoBehaviour //개미친 코드
 {
+    [Header ("Enemy Prefabs")]
     [SerializeField] GameObject enemy;
     [SerializeField] GameObject flyEnemy;
     [SerializeField] GameObject boss;
+
+    [Header("SpawnTime")]
+    [SerializeField] int slowslow = 3;
+    [SerializeField] int slow = 2;
+    [SerializeField] int fast = 1;
+
 
     private float _time = 0;
 
@@ -110,79 +117,79 @@ public class EnemySpawnManager : MonoBehaviour
     #region 역겨운 함수들
     private void Spawn1()
     {
-        leftEnemy1.StartSpawn(enemy, 1);
+        leftEnemy1.StartSpawn(enemy, slowslow);
         one = true;
     }
 
     private void Spawn2()
     {
-        leftEnemy2.StartSpawn(enemy, 1);
-        rightEnemy2.StartSpawn(enemy, 1);
+        leftEnemy2.StartSpawn(enemy, slowslow);
+        rightEnemy2.StartSpawn(enemy, slowslow);
         two = true;
     }
     
     private void Spawn3()
     {
-        leftEnemy3.StartSpawn(enemy, 1);
-        rightEnemy3.StartSpawn(enemy, 1);
+        leftEnemy3.StartSpawn(enemy, slow);
+        rightEnemy3.StartSpawn(enemy, slow);
 
         three = true;
     }
     
     private void Spawn4()
     {
-        leftEnemy4.StartSpawn(enemy, 1);
-        rightEnemy4.StartSpawn(enemy, 1);
+        leftEnemy4.StartSpawn(enemy, slowslow);
+        rightEnemy4.StartSpawn(enemy, slowslow);
 
         four = true;
     }
     
     private void Spawn5()
     {
-        leftEnemy5.StartSpawn(enemy, 1);
-        rightEnemy5.StartSpawn(enemy, 1);
+        leftEnemy5.StartSpawn(enemy, slow);
+        rightEnemy5.StartSpawn(enemy, slow);
 
         five = true;
     }
     
     private void Spawn6()
     {
-        leftEnemy6.StartSpawn(enemy, 1);
-        rightEnemy6.StartSpawn(enemy, 1);
+        leftEnemy6.StartSpawn(enemy, fast);
+        rightEnemy6.StartSpawn(enemy, fast);
 
         six = true;
     }
     
     private void Spawn7()
     {
-        leftEnemy7.StartSpawn(enemy, 1);
-        rightEnemy7.StartSpawn(enemy, 1);
+        leftEnemy7.StartSpawn(enemy, fast);
+        rightEnemy7.StartSpawn(enemy, fast);
 
         seven = true;
     }
     
     private void Spawn8()
     {
-        leftEnemy8.StartSpawn(enemy, 1);
-        rightEnemy8.StartSpawn(enemy, 1);
+        leftEnemy8.StartSpawn(enemy, fast);
+        rightEnemy8.StartSpawn(enemy, fast);
 
         eight = true;
     }
     
     private void Spawn9()
     {
-        leftEnemy9.StartSpawn(enemy, 1);
-        rightEnemy9.StartSpawn(enemy, 1);
+        leftEnemy9.StartSpawn(enemy, fast);
+        rightEnemy9.StartSpawn(enemy, fast);
 
         nine = true;
     }
     
     private void Spawn10()
     {
-        leftEnemy10.StartSpawn(enemy, 1);
-        rightEnemy10.StartSpawn(enemy, 1);
+        leftEnemy10.StartSpawn(enemy, fast);
+        rightEnemy10.StartSpawn(enemy, fast);
 
-        leftBoss10.StartSpawn(boss, 1);
+        leftBoss10.StartSpawn(boss, 2147483647);
 
         ten = true;
     }
