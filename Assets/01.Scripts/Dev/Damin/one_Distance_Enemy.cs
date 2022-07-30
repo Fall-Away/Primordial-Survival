@@ -12,116 +12,62 @@ public class one_Distance_Enemy : MonoBehaviour
 
     [SerializeField]
     float movespeed;
-    int rnadomwait; 
-    Rigidbody2D rb2d;
+    [SerializeField]
+    float JumpPower;
     private float distoplayer;
-    public GameObject enemyBullet;
-    public float attackdistance;
-   public Transform bullettr;
-   [SerializeField]
-   private float currenttime;
-   [SerializeField]
-   private float creattime;
-   [SerializeField]private float reroledtime;
-   float reoledwiat;
-   private bool shoting=false;
-   public static bool isright=false;
-  
-    // Start is called before the first frame update
-    void Start()
-    {
-        rb2d = GetComponent<Rigidbody2D>();
-       rnadomwait= Random.Range(1,3);
-    }
+    private bool isGround;
+    Rigidbody2D rb;
+
+void Start()
+{
+  rb = GetComponent<Rigidbody2D>();
+}
 
     // Update is called once per frame
     void Update()
     {
-       
-       reoledwiat+=Time.deltaTime;
-        currenttime+=Time.deltaTime;
+         Jump(); 
+
          distoplayer = Vector2.Distance(transform.position,player.position);
-      
+
          if(distoplayer<agroRange)
         {
           ChasePlayer(); 
         }
-        else
-        {
-         SotpChase();
-        }
-
-        if(distoplayer<attackdistance)
-        {
-if(currenttime>creattime){
-    reroledtime=0;
-if(reroledtime<reoledwiat){
-   StartCoroutine("shot");
-}
-else
-{
-      if(distoplayer<agroRange)
-        {
-          ChasePlayer(); 
-        }
-        else
-        {
-         SotpChase();
-        }
-}
-
-}
-/*else if(reoledwiat<reroledtime){
-    StopCoroutine("shot");
-    
-}
-        }
-    /*    else
-        {
-    ChasePlayer();
-        }*/
-        }
     }
+
     void ChasePlayer()
-    {
-       if(shoting==false)
-       {
-     if(transform.position.x<player.position.x)
-     {
-    
-      rb2d.velocity = new Vector3(movespeed,0);  
-       //transform.eulerAngles= new Vector3(0,0,0);
-      transform.eulerAngles = new Vector3(0,180,0);
-      isright=true;
-        
-     }
-     else
-     {
-        isright=false;
-          //transform.eulerAngles= new Vector3(0,180,0);
-          rb2d.velocity = new Vector3(-movespeed,0);
-          transform.eulerAngles = new Vector3(0,0,0);    
-     }
-       }        
-
+    {    
+      if(transform.position.x<player.position.x)
+        {
+         transform.position+= Vector3.right * movespeed *Time.deltaTime;
+         transform.eulerAngles = new Vector3(0,180,0);  
+        }
+          else
+          {  
+            transform.position+= Vector3.left * movespeed *Time.deltaTime;
+            transform.eulerAngles = new Vector3(0,0,0);    
+          }
     }
-    void SotpChase()
+  
+    private void Jump()
     {
-       rb2d.velocity = new Vector3(0,0,0);
+        if(isGround == true)
+        {
+          rb.AddForce(Vector3.up * JumpPower,ForceMode2D.Impulse);
+        //  rb.velocity = new Vector2(0, 1 * JumpPower);
+            isGround = false;
+        }
     }
-     IEnumerator shot()
-    {
-  rb2d.velocity = new Vector3(0,0,0);
-    shoting=true;
-        yield return new WaitForSeconds(reroledtime);
-            
-        Instantiate(enemyBullet, bullettr.transform.position,transform.rotation);
-        currenttime=0;
-                 //SotpChase();
-               
-        yield return new WaitForSeconds(1f);
-shoting=false;
-ChasePlayer();
-
-    }
+      private void OnCollisionEnter2D(Collision2D collision)
+      {
+        if(collision.gameObject.CompareTag("Ground"))
+        {
+          isGround = true;
+        }
+          else
+          {
+            isGround = false;
+          }
+      }
 }
