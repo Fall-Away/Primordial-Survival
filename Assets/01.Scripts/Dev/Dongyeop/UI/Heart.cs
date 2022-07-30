@@ -20,16 +20,8 @@ public class Heart : MonoBehaviour
     {
         _realTime += Time.deltaTime;
 
-        if (_realTime >= 10 && _isGray == true)
-            Gray();
-        if (_realTime >= 17.5f && _isRun == true)
+        if (_realTime >= 38f && _isRun == true)
             Run();
-    }
-
-    private void Gray()
-    {
-        _animator.SetBool("isGray", true);
-        _isGray = false;
     }
 
     private void Run()

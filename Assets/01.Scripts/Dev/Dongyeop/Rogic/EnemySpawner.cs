@@ -11,18 +11,18 @@ public class EnemySpawner : MonoBehaviour
         pooler = GetComponent<ObjectPooler>();
     }
 
-    public void StartSpawn(GameObject spawnEnemy, int spawnTime)
+    public void StartSpawn(int spawnTime)
     {
-        StartCoroutine(Spawn(spawnEnemy, spawnTime));
+        StartCoroutine(Spawn(spawnTime));
     }
 
-    public void StopSpawn(GameObject spawnEnemy, int spawnTime)
+    public void StopSpawn(int spawnTime)
     {
-        StopCoroutine(Spawn(spawnEnemy, spawnTime));
+        StopCoroutine(Spawn(spawnTime));
     }
 
 
-    IEnumerator Spawn(GameObject spawnEnemy, int spawnTime)
+    IEnumerator Spawn(int spawnTime)
     {
         while (true)
         {

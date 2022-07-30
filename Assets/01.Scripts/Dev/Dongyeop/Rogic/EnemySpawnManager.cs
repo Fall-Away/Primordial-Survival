@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemySpawnManager : MonoBehaviour //개미친 코드
 {
     [Header ("Enemy Prefabs")]
-    [SerializeField] GameObject enemy;
+    [SerializeField] GameObject e;
     [SerializeField] GameObject flyEnemy;
     [SerializeField] GameObject boss;
 
@@ -32,59 +32,21 @@ public class EnemySpawnManager : MonoBehaviour //개미친 코드
     #endregion
 
     #region Left Enemys
-    private EnemySpawner leftEnemy1;
-    private EnemySpawner leftEnemy2;
-    private EnemySpawner leftEnemy3;
-    private EnemySpawner leftEnemy4;
-    private EnemySpawner leftEnemy5;
-    private EnemySpawner leftEnemy6;
-    private EnemySpawner leftEnemy7;
-    private EnemySpawner leftEnemy8;
-    private EnemySpawner leftEnemy9;
-    private EnemySpawner leftEnemy10;
-    #endregion
-    #region Right Enemys
-    private EnemySpawner rightEnemy2;
-    private EnemySpawner rightEnemy3;
-    private EnemySpawner rightEnemy4;
-    private EnemySpawner rightEnemy5;
-    private EnemySpawner rightEnemy6;
-    private EnemySpawner rightEnemy7;
-    private EnemySpawner rightEnemy8;
-    private EnemySpawner rightEnemy9;
-    private EnemySpawner rightEnemy10;
+    private EnemySpawner left_Enemy;
+    private EnemySpawner right_Enemy;
     #endregion
 
-    private EnemySpawner leftBoss10;
+    private EnemySpawner leftBoss;
 
 
     private void Awake()
     {
-        #region Left Enemys
-        leftEnemy1 = GameObject.Find("1_Left_Enemy").GetComponent<EnemySpawner>();
-        leftEnemy2 = GameObject.Find("2_Left_Enemy").GetComponent<EnemySpawner>();
-        leftEnemy3 = GameObject.Find("3_Left_Enemy").GetComponent<EnemySpawner>();
-        leftEnemy4 = GameObject.Find("4_Left_Enemy").GetComponent<EnemySpawner>();
-        leftEnemy5 = GameObject.Find("5_Left_Enemy").GetComponent<EnemySpawner>();
-        leftEnemy6 = GameObject.Find("6_Left_Enemy").GetComponent<EnemySpawner>();
-        leftEnemy7 = GameObject.Find("7_Left_Enemy").GetComponent<EnemySpawner>();
-        leftEnemy8 = GameObject.Find("8_Left_Enemy").GetComponent<EnemySpawner>();
-        leftEnemy9 = GameObject.Find("9_Left_Enemy").GetComponent<EnemySpawner>();
-        leftEnemy10 = GameObject.Find("10_Left_Enemy").GetComponent<EnemySpawner>();
-        #endregion
-        #region Right Enemys
-        leftEnemy2 = GameObject.Find("2_Right_Enemy").GetComponent<EnemySpawner>();
-        leftEnemy3 = GameObject.Find("3_Right_Enemy").GetComponent<EnemySpawner>();
-        leftEnemy4 = GameObject.Find("4_Right_Enemy").GetComponent<EnemySpawner>();
-        leftEnemy5 = GameObject.Find("5_Right_Enemy").GetComponent<EnemySpawner>();
-        leftEnemy6 = GameObject.Find("6_Right_Enemy").GetComponent<EnemySpawner>();
-        leftEnemy7 = GameObject.Find("7_Right_Enemy").GetComponent<EnemySpawner>();
-        leftEnemy8 = GameObject.Find("8_Right_Enemy").GetComponent<EnemySpawner>();
-        leftEnemy9 = GameObject.Find("9_Right_Enemy").GetComponent<EnemySpawner>();
-        leftEnemy10 = GameObject.Find("10_Right_Enemy").GetComponent<EnemySpawner>();
+        #region Enemys
+        left_Enemy = GameObject.Find("Left_Enemy").GetComponent<EnemySpawner>();
+        right_Enemy = GameObject.Find("Right_Enemy").GetComponent<EnemySpawner>();
         #endregion
 
-        leftBoss10 = GameObject.Find("10_Left_Boss").GetComponent<EnemySpawner>();
+        leftBoss = GameObject.Find("Left_Boss").GetComponent<EnemySpawner>();
     }
 
     private void Update()
@@ -120,114 +82,114 @@ public class EnemySpawnManager : MonoBehaviour //개미친 코드
     #region 역겨운 함수들
     private void Spawn1()
     {
-        leftEnemy1.StartSpawn(enemy, slowslow);
+        left_Enemy.StartSpawn(slowslow);
         one = true;
     }
 
     private void Spawn2()
     {
-        leftEnemy1.StopSpawn(enemy, slowslow);
+        left_Enemy.StopSpawn(slowslow);
 
-        leftEnemy2.StartSpawn(enemy, slowslow);
-        rightEnemy2.StartSpawn(enemy, slowslow);
+        left_Enemy.StartSpawn(slowslow);
+        right_Enemy.StartSpawn(slowslow);
         two = true;
     }
     
     private void Spawn3()
     {
-        leftEnemy2.StopSpawn(enemy, slowslow);
-        rightEnemy2.StopSpawn(enemy, slowslow);
+        left_Enemy.StopSpawn(slowslow);
+        right_Enemy.StopSpawn(slowslow);
 
-        leftEnemy3.StartSpawn(enemy, slow);
-        rightEnemy3.StartSpawn(enemy, slow);
+        left_Enemy.StartSpawn(slow);
+        right_Enemy.StartSpawn(slow);
 
         three = true;
     }
     
     private void Spawn4()
     {
-        leftEnemy3.StopSpawn(enemy, slow);
-        rightEnemy3.StopSpawn(enemy, slow);
+        left_Enemy.StopSpawn(slow);
+        right_Enemy.StopSpawn(slow);
 
-        leftEnemy4.StartSpawn(enemy, slowslow);
-        rightEnemy4.StartSpawn(enemy, slowslow);
+        left_Enemy.StartSpawn(slowslow);
+        right_Enemy.StartSpawn(slowslow);
 
         four = true;
     }
     
     private void Spawn5()
     {
-        leftEnemy4.StopSpawn(enemy, slowslow);
-        rightEnemy4.StopSpawn(enemy, slowslow);
+        left_Enemy.StopSpawn(slowslow);
+        right_Enemy.StopSpawn(slowslow);
 
-        leftEnemy5.StartSpawn(enemy, slow);
-        rightEnemy5.StartSpawn(enemy, slow);
+        left_Enemy.StartSpawn(slow);
+        right_Enemy.StartSpawn(slow);
 
         five = true;
     }
     
     private void Spawn6()
     {
-        leftEnemy5.StopSpawn(enemy, slow);
-        rightEnemy5.StopSpawn(enemy, slow);
+        left_Enemy.StopSpawn(slow);
+        right_Enemy.StopSpawn(slow);
 
-        leftEnemy6.StartSpawn(enemy, fast);
-        rightEnemy6.StartSpawn(enemy, fast);
+        left_Enemy.StartSpawn(fast);
+        right_Enemy.StartSpawn(fast);
 
         six = true;
     }
     
     private void Spawn7()
     {
-        leftEnemy6.StopSpawn(enemy, fast);
-        rightEnemy6.StopSpawn(enemy, fast);
+        left_Enemy.StopSpawn(fast);
+        right_Enemy.StopSpawn(fast);
 
-        leftEnemy7.StartSpawn(enemy, fast);
-        rightEnemy7.StartSpawn(enemy, fast);
+        left_Enemy.StartSpawn(fast);
+        right_Enemy.StartSpawn(fast);
 
         seven = true;
     }
     
     private void Spawn8()
     {
-        leftEnemy7.StopSpawn(enemy, fast);
-        rightEnemy7.StopSpawn(enemy, fast);
+        left_Enemy.StopSpawn(fast);
+        right_Enemy.StopSpawn(fast);
 
-        leftEnemy8.StartSpawn(enemy, fast);
-        rightEnemy8.StartSpawn(enemy, fast);
+        left_Enemy.StartSpawn(fast);
+        right_Enemy.StartSpawn(fast);
 
         eight = true;
     }
     
     private void Spawn9()
     {
-        leftEnemy8.StopSpawn(enemy, fast);
-        rightEnemy8.StopSpawn(enemy, fast);
+        left_Enemy.StopSpawn(fast);
+        right_Enemy.StopSpawn(fast);
 
-        leftEnemy9.StartSpawn(enemy, fast);
-        rightEnemy9.StartSpawn(enemy, fast);
+        left_Enemy.StartSpawn(fast);
+        right_Enemy.StartSpawn(fast);
 
         nine = true;
     }
     
     private void Spawn10()
     {
-        leftEnemy9.StopSpawn(enemy, fast);
-        rightEnemy9.StopSpawn(enemy, fast);
+        left_Enemy.StopSpawn(fast);
+        right_Enemy.StopSpawn(fast);
 
-        leftEnemy10.StartSpawn(enemy, fast);
-        rightEnemy10.StartSpawn(enemy, fast);
+        left_Enemy.StartSpawn(fast);
+        right_Enemy.StartSpawn(fast);
 
-        leftBoss10.StartSpawn(boss, 2147483647);
-        leftBoss10.StopSpawn(boss, 2147483647);
+        leftBoss.StartSpawn(2147483647);
+        leftBoss.StopSpawn(2147483647);
 
         ten = true;
     }
 
     private void END()
     {
-        leftEnemy10.StopSpawn(enemy, fast);
-        rightEnemy10.StopSpawn(enemy, fast);
+        left_Enemy.StopSpawn(fast);
+        right_Enemy.StopSpawn(fast);
 
         eleven = true;
     }
