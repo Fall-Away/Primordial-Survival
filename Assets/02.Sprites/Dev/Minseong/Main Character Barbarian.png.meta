@@ -1,0 +1,5232 @@
+fileFormatVersion: 2
+guid: 5f7379ef59b3d4046bfa0619e4e7d7e6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5687726799231563121
+    second: Main Character Barbarian_0
+  - first:
+      213: -4768966811315202724
+    second: Main Character Barbarian_1
+  - first:
+      213: 7210491619729766997
+    second: Main Character Barbarian_2
+  - first:
+      213: 4947669785946457652
+    second: Main Character Barbarian_3
+  - first:
+      213: 8015116478783017190
+    second: Main Character Barbarian_4
+  - first:
+      213: 83173842468961078
+    second: Main Character Barbarian_5
+  - first:
+      213: 8273640250425422649
+    second: Main Character Barbarian_6
+  - first:
+      213: -4353158610196451128
+    second: Main Character Barbarian_7
+  - first:
+      213: -2968163252298050951
+    second: Main Character Barbarian_8
+  - first:
+      213: 3754320229584268768
+    second: Main Character Barbarian_9
+  - first:
+      213: -1857758431247049526
+    second: Main Character Barbarian_10
+  - first:
+      213: 5077880996674362714
+    second: Main Character Barbarian_11
+  - first:
+      213: 1074654382167249673
+    second: Main Character Barbarian_12
+  - first:
+      213: -8745932663555645208
+    second: Main Character Barbarian_13
+  - first:
+      213: 2869627909574975540
+    second: Main Character Barbarian_14
+  - first:
+      213: 5979576251398954519
+    second: Main Character Barbarian_15
+  - first:
+      213: 5572361177611708858
+    second: Main Character Barbarian_16
+  - first:
+      213: -4035807218379158321
+    second: Main Character Barbarian_17
+  - first:
+      213: 949954604172950337
+    second: Main Character Barbarian_18
+  - first:
+      213: -6064677720295037775
+    second: Main Character Barbarian_19
+  - first:
+      213: 1180461648930725944
+    second: Main Character Barbarian_20
+  - first:
+      213: 4218746950319392588
+    second: Main Character Barbarian_21
+  - first:
+      213: 3393960060419896884
+    second: Main Character Barbarian_22
+  - first:
+      213: -4598906424257061333
+    second: Main Character Barbarian_23
+  - first:
+      213: 3952483744239034262
+    second: Main Character Barbarian_24
+  - first:
+      213: 2601651091213916288
+    second: Main Character Barbarian_25
+  - first:
+      213: 1903883565773387823
+    second: Main Character Barbarian_26
+  - first:
+      213: -8286398342498050453
+    second: Main Character Barbarian_27
+  - first:
+      213: 7939230526805819554
+    second: Main Character Barbarian_28
+  - first:
+      213: -7217345484083376401
+    second: Main Character Barbarian_29
+  - first:
+      213: -3811248109945266523
+    second: Main Character Barbarian_30
+  - first:
+      213: -3901309360139977422
+    second: Main Character Barbarian_31
+  - first:
+      213: 7679018736467159505
+    second: Main Character Barbarian_32
+  - first:
+      213: -4286950568277641923
+    second: Main Character Barbarian_33
+  - first:
+      213: -7462465298910009694
+    second: Main Character Barbarian_34
+  - first:
+      213: 5469792851003936947
+    second: Main Character Barbarian_35
+  - first:
+      213: -1913588376139939591
+    second: Main Character Barbarian_36
+  - first:
+      213: 4056841919426259543
+    second: Main Character Barbarian_37
+  - first:
+      213: -1441501997626981247
+    second: Main Character Barbarian_38
+  - first:
+      213: -8521935567333347904
+    second: Main Character Barbarian_39
+  - first:
+      213: 4096853551217488658
+    second: Main Character Barbarian_40
+  - first:
+      213: -5443768215211324954
+    second: Main Character Barbarian_41
+  - first:
+      213: 2737396417495369716
+    second: Main Character Barbarian_42
+  - first:
+      213: 1610975733333830852
+    second: Main Character Barbarian_43
+  - first:
+      213: -7138812738782778457
+    second: Main Character Barbarian_44
+  - first:
+      213: -7952437567560284731
+    second: Main Character Barbarian_45
+  - first:
+      213: 3378606408519135597
+    second: Main Character Barbarian_46
+  - first:
+      213: 2709514398044922948
+    second: Main Character Barbarian_47
+  - first:
+      213: 6674675952924178825
+    second: Main Character Barbarian_48
+  - first:
+      213: -8871560040054243870
+    second: Main Character Barbarian_49
+  - first:
+      213: 2222269174429025367
+    second: Main Character Barbarian_50
+  - first:
+      213: 127259432806803619
+    second: Main Character Barbarian_51
+  - first:
+      213: 258220674590400453
+    second: Main Character Barbarian_52
+  - first:
+      213: 5882114313000016729
+    second: Main Character Barbarian_53
+  - first:
+      213: -8040291449737445022
+    second: Main Character Barbarian_54
+  - first:
+      213: 1322641455801803654
+    second: Main Character Barbarian_55
+  - first:
+      213: -2896750779485132221
+    second: Main Character Barbarian_56
+  - first:
+      213: -7421652694368139544
+    second: Main Character Barbarian_57
+  - first:
+      213: 8227899835232816677
+    second: Main Character Barbarian_58
+  - first:
+      213: 3099651651980818846
+    second: Main Character Barbarian_59
+  - first:
+      213: -2911019261996962042
+    second: Main Character Barbarian_60
+  - first:
+      213: 5485588482369199185
+    second: Main Character Barbarian_61
+  - first:
+      213: -2511540872079944784
+    second: Main Character Barbarian_62
+  - first:
+      213: 6002570457349261867
+    second: Main Character Barbarian_63
+  - first:
+      213: -7643412882780531117
+    second: Main Character Barbarian_64
+  - first:
+      213: 4843513712412840408
+    second: Main Character Barbarian_65
+  - first:
+      213: 8395303770770283676
+    second: Main Character Barbarian_66
+  - first:
+      213: -7266349315571710689
+    second: Main Character Barbarian_67
+  - first:
+      213: -9026515592307306829
+    second: Main Character Barbarian_68
+  - first:
+      213: 8123518681785232629
+    second: Main Character Barbarian_69
+  - first:
+      213: 293838867829495204
+    second: Main Character Barbarian_70
+  - first:
+      213: 4576316974530613138
+    second: Main Character Barbarian_71
+  - first:
+      213: -7176743278402792810
+    second: Main Character Barbarian_72
+  - first:
+      213: -6191348059563050537
+    second: Main Character Barbarian_73
+  - first:
+      213: -7050242452948456643
+    second: Main Character Barbarian_74
+  - first:
+      213: -1861785605952029159
+    second: Main Character Barbarian_75
+  - first:
+      213: 4792712133167408104
+    second: Main Character Barbarian_76
+  - first:
+      213: -2238093717892894234
+    second: Main Character Barbarian_77
+  - first:
+      213: 279521808236245100
+    second: Main Character Barbarian_78
+  - first:
+      213: -5883508153016719786
+    second: Main Character Barbarian_79
+  - first:
+      213: 412718068811625425
+    second: Main Character Barbarian_80
+  - first:
+      213: -4530319257007684608
+    second: Main Character Barbarian_81
+  - first:
+      213: 6313614750528080601
+    second: Main Character Barbarian_82
+  - first:
+      213: 6972868493609864014
+    second: Main Character Barbarian_83
+  - first:
+      213: 34020956571589835
+    second: Main Character Barbarian_84
+  - first:
+      213: 7375230939918616447
+    second: Main Character Barbarian_85
+  - first:
+      213: -2901327487793969513
+    second: Main Character Barbarian_86
+  - first:
+      213: 1942615932600868080
+    second: Main Character Barbarian_87
+  - first:
+      213: -4278873856656379994
+    second: Main Character Barbarian_88
+  - first:
+      213: 4839664349675999952
+    second: Main Character Barbarian_89
+  - first:
+      213: 783428777006492823
+    second: Main Character Barbarian_90
+  - first:
+      213: -4516094681151359888
+    second: Main Character Barbarian_91
+  - first:
+      213: -1252734408930402203
+    second: Main Character Barbarian_92
+  - first:
+      213: 4000469079274216079
+    second: Main Character Barbarian_93
+  - first:
+      213: 4029591417160720914
+    second: Main Character Barbarian_94
+  - first:
+      213: -8105958666275459172
+    second: Main Character Barbarian_95
+  - first:
+      213: -8938205326719899977
+    second: Main Character Barbarian_96
+  - first:
+      213: 6118296621915684476
+    second: Main Character Barbarian_97
+  - first:
+      213: 5058817885773084153
+    second: Main Character Barbarian_98
+  - first:
+      213: -5171112094530647619
+    second: Main Character Barbarian_99
+  - first:
+      213: 7304849388611052749
+    second: Main Character Barbarian_100
+  - first:
+      213: 1329052460461035266
+    second: Main Character Barbarian_101
+  - first:
+      213: 381071200438334479
+    second: Main Character Barbarian_102
+  - first:
+      213: 3038580317531808105
+    second: Main Character Barbarian_103
+  - first:
+      213: 5972508962838647350
+    second: Main Character Barbarian_104
+  - first:
+      213: -5318965695888620196
+    second: Main Character Barbarian_105
+  - first:
+      213: 6555734296924129687
+    second: Main Character Barbarian_106
+  - first:
+      213: -3434869274500738674
+    second: Main Character Barbarian_107
+  - first:
+      213: 2997415849338527474
+    second: Main Character Barbarian_108
+  - first:
+      213: -7884121798429023089
+    second: Main Character Barbarian_109
+  - first:
+      213: 3148880613681339322
+    second: Main Character Barbarian_110
+  - first:
+      213: 1578702281721332866
+    second: Main Character Barbarian_111
+  - first:
+      213: 8235900796479289957
+    second: Main Character Barbarian_112
+  - first:
+      213: 595355874839888834
+    second: Main Character Barbarian_113
+  - first:
+      213: -4545942328972505585
+    second: Main Character Barbarian_114
+  - first:
+      213: -802064039351262756
+    second: Main Character Barbarian_115
+  - first:
+      213: -6365662471900867395
+    second: Main Character Barbarian_116
+  - first:
+      213: -6724504839855080902
+    second: Main Character Barbarian_117
+  - first:
+      213: -6522208767604062964
+    second: Main Character Barbarian_118
+  - first:
+      213: 9001490890962746370
+    second: Main Character Barbarian_119
+  - first:
+      213: 3787258756221704718
+    second: Main Character Barbarian_120
+  - first:
+      213: 841874806533702723
+    second: Main Character Barbarian_121
+  - first:
+      213: -7034177977470057413
+    second: Main Character Barbarian_122
+  - first:
+      213: 403459117540068042
+    second: Main Character Barbarian_123
+  - first:
+      213: -344961130887865276
+    second: Main Character Barbarian_124
+  - first:
+      213: -2364150315547610709
+    second: Main Character Barbarian_125
+  - first:
+      213: 7235884225735258512
+    second: Main Character Barbarian_126
+  - first:
+      213: -5432635144438615476
+    second: Main Character Barbarian_127
+  - first:
+      213: 3073057267907846765
+    second: Main Character Barbarian_128
+  - first:
+      213: 8299300198136721342
+    second: Main Character Barbarian_129
+  - first:
+      213: 5024548381064546547
+    second: Main Character Barbarian_130
+  - first:
+      213: 6299597051312329977
+    second: Main Character Barbarian_131
+  - first:
+      213: -6066990699146472623
+    second: Main Character Barbarian_132
+  - first:
+      213: -1549848612779188532
+    second: Main Character Barbarian_133
+  - first:
+      213: 2770908136783132449
+    second: Main Character Barbarian_134
+  - first:
+      213: 1731185735353969540
+    second: Main Character Barbarian_135
+  - first:
+      213: 629658806485638020
+    second: Main Character Barbarian_136
+  - first:
+      213: 7874712042252824360
+    second: Main Character Barbarian_137
+  - first:
+      213: -9166411399141010394
+    second: Main Character Barbarian_138
+  - first:
+      213: -1590589826465339224
+    second: Main Character Barbarian_139
+  - first:
+      213: 334808555063117054
+    second: Main Character Barbarian_140
+  - first:
+      213: -2211798043476017039
+    second: Main Character Barbarian_141
+  - first:
+      213: 3049192215811475490
+    second: Main Character Barbarian_142
+  - first:
+      213: 516250403901817997
+    second: Main Character Barbarian_143
+  - first:
+      213: -853990637390942778
+    second: Main Character Barbarian_144
+  - first:
+      213: -956092003339395500
+    second: Main Character Barbarian_145
+  - first:
+      213: 2939673862234528905
+    second: Main Character Barbarian_146
+  - first:
+      213: 7318782790852710526
+    second: Main Character Barbarian_147
+  - first:
+      213: 8846003620254599452
+    second: Main Character Barbarian_148
+  - first:
+      213: -4678278800841390072
+    second: Main Character Barbarian_149
+  - first:
+      213: 7020995175886455864
+    second: Main Character Barbarian_150
+  - first:
+      213: -5504346979817961713
+    second: Main Character Barbarian_151
+  - first:
+      213: 5912669827980870373
+    second: Main Character Barbarian_152
+  - first:
+      213: -4759837325266535214
+    second: Main Character Barbarian_153
+  - first:
+      213: -5888282566119238518
+    second: Main Character Barbarian_154
+  - first:
+      213: -3648141856151236000
+    second: Main Character Barbarian_155
+  - first:
+      213: 1931170678869865444
+    second: Main Character Barbarian_156
+  - first:
+      213: 5233524820386803612
+    second: Main Character Barbarian_157
+  - first:
+      213: 378691271078568379
+    second: Main Character Barbarian_158
+  - first:
+      213: 9148141196798246022
+    second: Main Character Barbarian_159
+  - first:
+      213: 7880448684760052422
+    second: Main Character Barbarian_160
+  - first:
+      213: 5540567007500635867
+    second: Main Character Barbarian_161
+  - first:
+      213: -6691287271656960300
+    second: Main Character Barbarian_162
+  - first:
+      213: 2346045859172155948
+    second: Main Character Barbarian_163
+  - first:
+      213: -1348496236716795576
+    second: Main Character Barbarian_164
+  - first:
+      213: -9074891842503498986
+    second: Main Character Barbarian_165
+  - first:
+      213: -1092309649480699775
+    second: Main Character Barbarian_166
+  - first:
+      213: 403873982612656129
+    second: Main Character Barbarian_167
+  - first:
+      213: -9177517695238479529
+    second: Main Character Barbarian_168
+  - first:
+      213: -3029427750573657519
+    second: Main Character Barbarian_169
+  - first:
+      213: 2345362639328984879
+    second: Main Character Barbarian_170
+  - first:
+      213: -7607608951267227272
+    second: Main Character Barbarian_171
+  - first:
+      213: -3299156673714054057
+    second: Main Character Barbarian_172
+  - first:
+      213: 4449759012316642508
+    second: Main Character Barbarian_173
+  - first:
+      213: 876978826938820853
+    second: Main Character Barbarian_174
+  - first:
+      213: -6560162449037865564
+    second: Main Character Barbarian_175
+  - first:
+      213: -3490128084725047082
+    second: Main Character Barbarian_176
+  - first:
+      213: -3517230521400675575
+    second: Main Character Barbarian_177
+  - first:
+      213: 4917457975988838448
+    second: Main Character Barbarian_178
+  - first:
+      213: -7031038620532734126
+    second: Main Character Barbarian_179
+  - first:
+      213: -1331406128954546946
+    second: Main Character Barbarian_180
+  - first:
+      213: -2064564962751491608
+    second: Main Character Barbarian_181
+  - first:
+      213: 3790619835786242020
+    second: Main Character Barbarian_182
+  - first:
+      213: -1757475807127559741
+    second: Main Character Barbarian_183
+  - first:
+      213: -7089615926138614547
+    second: Main Character Barbarian_184
+  - first:
+      213: -7583230591851123064
+    second: Main Character Barbarian_185
+  - first:
+      213: 4078165076044466896
+    second: Main Character Barbarian_186
+  - first:
+      213: -6475417217925671360
+    second: Main Character Barbarian_187
+  - first:
+      213: -6215770474369241328
+    second: Main Character Barbarian_188
+  - first:
+      213: -6594122267190859992
+    second: Main Character Barbarian_189
+  - first:
+      213: 2005952543751867300
+    second: Main Character Barbarian_190
+  - first:
+      213: 327148271733321192
+    second: Main Character Barbarian_191
+  - first:
+      213: 9166413820130039232
+    second: Main Character Barbarian_192
+  - first:
+      213: -8302319054583284113
+    second: Main Character Barbarian_193
+  - first:
+      213: -8121931388329273134
+    second: Main Character Barbarian_194
+  - first:
+      213: 8139965283520955136
+    second: Main Character Barbarian_195
+  - first:
+      213: -8749144454165683602
+    second: Main Character Barbarian_196
+  - first:
+      213: -2508074767211521528
+    second: Main Character Barbarian_197
+  - first:
+      213: -502147932081245907
+    second: Main Character Barbarian_198
+  - first:
+      213: -8603954101659698516
+    second: Main Character Barbarian_199
+  - first:
+      213: -3639102812510562304
+    second: Main Character Barbarian_200
+  - first:
+      213: 8146842331852694712
+    second: Main Character Barbarian_201
+  - first:
+      213: -7291678724861425950
+    second: Main Character Barbarian_202
+  - first:
+      213: -1340778128754027928
+    second: Main Character Barbarian_203
+  - first:
+      213: 246734892826568983
+    second: Main Character Barbarian_204
+  - first:
+      213: -7281954106142475444
+    second: Main Character Barbarian_205
+  - first:
+      213: -6668402729331816456
+    second: Main Character Barbarian_206
+  - first:
+      213: -290601141043848436
+    second: Main Character Barbarian_207
+  - first:
+      213: 387315977479922461
+    second: Main Character Barbarian_208
+  - first:
+      213: -4606219361858354615
+    second: Main Character Barbarian_209
+  - first:
+      213: -8671113576078193256
+    second: Main Character Barbarian_210
+  - first:
+      213: -3394407502483111383
+    second: Main Character Barbarian_211
+  - first:
+      213: -2361104057048091843
+    second: Main Character Barbarian_212
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Main Character Barbarian_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1936
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175baa7936ddeee40800000000000000
+      internalID: 5687726799231563121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1936
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c551ee1c3f931ddb0800000000000000
+      internalID: -4768966811315202724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1936
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a7ce1ecefc01460800000000000000
+      internalID: 7210491619729766997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1936
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4368549d477a9a440800000000000000
+      internalID: 4947669785946457652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1936
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0dd37b8f96b3f60800000000000000
+      internalID: 8015116478783017190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1936
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b77f64b2e772100800000000000000
+      internalID: 83173842468961078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1936
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9333bfdd8ffd1d270800000000000000
+      internalID: 8273640250425422649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1936
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0be4cde497693c0800000000000000
+      internalID: -4353158610196451128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1936
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972186f7f37fec6d0800000000000000
+      internalID: -2968163252298050951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1936
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edee698b560a1430800000000000000
+      internalID: 3754320229584268768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1872
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc5803bc8ae736e0800000000000000
+      internalID: -1857758431247049526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1872
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d5b7adcd1487640800000000000000
+      internalID: 5077880996674362714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1872
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90355618770f9ee00800000000000000
+      internalID: 1074654382167249673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1872
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0a747949430a680800000000000000
+      internalID: -8745932663555645208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1872
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43063cb3167f2d720800000000000000
+      internalID: 2869627909574975540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_15
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1872
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e1ff36be8bbf250800000000000000
+      internalID: 5979576251398954519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_16
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1872
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab929b7a7f0055d40800000000000000
+      internalID: 5572361177611708858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1808
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc8d8ea7beedf7c0800000000000000
+      internalID: -4035807218379158321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1808
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bb97eedaaee2d00800000000000000
+      internalID: 949954604172950337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1808
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4a694debfe5dba0800000000000000
+      internalID: -6064677720295037775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1808
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830ec778d97d16010800000000000000
+      internalID: 1180461648930725944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_21
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1808
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47cc0bdffffb8a30800000000000000
+      internalID: 4218746950319392588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_22
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1808
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436f03761b4c91f20800000000000000
+      internalID: 3393960060419896884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1808
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e55e229f66d20c0800000000000000
+      internalID: -4598906424257061333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1744
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f9fd3360b0ad630800000000000000
+      internalID: 3952483744239034262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1744
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088105122ebea1420800000000000000
+      internalID: 2601651091213916288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1744
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2870af0404fb6a10800000000000000
+      internalID: 1903883565773387823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1744
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e94085c9cc00d80800000000000000
+      internalID: -8286398342498050453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1744
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0c23ca910dd2e60800000000000000
+      internalID: 7939230526805819554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1680
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feec0f77586d6db90800000000000000
+      internalID: -7217345484083376401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1680
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae55df690abb1bc0800000000000000
+      internalID: -3811248109945266523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1680
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d33f59ec3cbd9c0800000000000000
+      internalID: -3901309360139977422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1680
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9a1ba0bda519a60800000000000000
+      internalID: 7679018736467159505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1680
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35f620eb21b184c0800000000000000
+      internalID: -4286950568277641923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1680
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a62ac5395fff6890800000000000000
+      internalID: -7462465298910009694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1680
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b09f072e9b98eb40800000000000000
+      internalID: 5469792851003936947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_36
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1680
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0ccd1b2819175e0800000000000000
+      internalID: -1913588376139939591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_37
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1680
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ae05d4b3ccc4830800000000000000
+      internalID: 4056841919426259543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1616
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1848d601291cefbe0800000000000000
+      internalID: -1441501997626981247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1616
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd245ea0c00cb980800000000000000
+      internalID: -8521935567333347904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1616
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213bd194992fad830800000000000000
+      internalID: 4096853551217488658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_41
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1616
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e944cc86a9d374b0800000000000000
+      internalID: -5443768215211324954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1616
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f70d32d98f2df520800000000000000
+      internalID: 2737396417495369716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1552
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc2327e4e55b5610800000000000000
+      internalID: 1610975733333830852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1552
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aba1da13a7ddec90800000000000000
+      internalID: -7138812738782778457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_45
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1552
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c509178a2443a190800000000000000
+      internalID: -7952437567560284731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1552
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6134afb0a833ee20800000000000000
+      internalID: 3378606408519135597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_47
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1552
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44426494df02a9520800000000000000
+      internalID: 2709514398044922948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_48
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1552
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98933ec4a6631ac50800000000000000
+      internalID: 6674675952924178825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1488
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed3409a523e1e480800000000000000
+      internalID: -8871560040054243870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1488
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75484214a0617de10800000000000000
+      internalID: 2222269174429025367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_51
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1488
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a864c6a7cd14c100800000000000000
+      internalID: 127259432806803619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1488
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf5f9ed552659300800000000000000
+      internalID: 258220674590400453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_53
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1488
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b5b9a8dc771a150800000000000000
+      internalID: 5882114313000016729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_54
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1488
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2610ac796852b6090800000000000000
+      internalID: -8040291449737445022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_55
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1488
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683a54a7567fa5210800000000000000
+      internalID: 1322641455801803654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_56
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1488
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ae3f1838cacc7d0800000000000000
+      internalID: -2896750779485132221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_57
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1488
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6cdd1323ef00990800000000000000
+      internalID: -7421652694368139544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_58
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1488
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e0c8e8e4f5f2270800000000000000
+      internalID: 8227899835232816677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1424
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99f4cb31cc240b20800000000000000
+      internalID: 3099651651980818846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_60
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1424
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fe95a876bf997d0800000000000000
+      internalID: -2911019261996962042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1424
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c179b29a9b02c40800000000000000
+      internalID: 5485588482369199185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_62
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1424
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3dcc032e6352dd0800000000000000
+      internalID: -2511540872079944784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_63
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1424
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a8e89270a6d4350800000000000000
+      internalID: 6002570457349261867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1360
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356d83aca742de590800000000000000
+      internalID: -7643412882780531117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_65
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1360
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1d9153f0e973340800000000000000
+      internalID: 4843513712412840408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_66
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1360
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c924e9c4c128470800000000000000
+      internalID: 8395303770770283676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_67
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1360
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f150277dbcdb82b90800000000000000
+      internalID: -7266349315571710689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1360
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be8ff0b4ef5bb280800000000000000
+      internalID: -9026515592307306829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_69
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1360
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcee0a63398cb070800000000000000
+      internalID: 8123518681785232629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_70
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1360
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a51e2ab4ece31400800000000000000
+      internalID: 293838867829495204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1296
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fcc7eba08528f30800000000000000
+      internalID: 4576316974530613138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_72
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1296
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69211a62306176c90800000000000000
+      internalID: -7176743278402792810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_73
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1296
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9b0f43eb9e31aa0800000000000000
+      internalID: -6191348059563050537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_74
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1296
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3be0a3c7d1882e90800000000000000
+      internalID: -7050242452948456643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_75
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1296
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e3b450bdb9926e0800000000000000
+      internalID: -1861785605952029159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_76
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1296
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3e520da42238240800000000000000
+      internalID: 4792712133167408104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_77
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1296
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1f5fa1f91b0f0e0800000000000000
+      internalID: -2238093717892894234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_78
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1296
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6075e68a9f01e300800000000000000
+      internalID: 279521808236245100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_79
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1296
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656e25ac184995ea0800000000000000
+      internalID: -5883508153016719786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_80
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1296
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3f6eb95e44ab500800000000000000
+      internalID: 412718068811625425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1232
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00402fe63a21121c0800000000000000
+      internalID: -4530319257007684608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1232
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da84e52a277e9750800000000000000
+      internalID: 6313614750528080601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_83
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1232
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b012b73fa94c060800000000000000
+      internalID: 6972868493609864014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_84
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1232
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc5e5731edd87000800000000000000
+      internalID: 34020956571589835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_85
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1232
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77c156d6751a5660800000000000000
+      internalID: 7375230939918616447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1168
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796c6f0950a6cb7d0800000000000000
+      internalID: -2901327487793969513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_87
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1168
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc50b5f5ee85fa10800000000000000
+      internalID: 1942615932600868080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1168
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af6a47d5e26e94c0800000000000000
+      internalID: -4278873856656379994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_89
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1168
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d25f8a9511f92340800000000000000
+      internalID: 4839664349675999952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_90
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1168
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c6a48625c4fda00800000000000000
+      internalID: 783428777006492823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_91
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1168
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07431f590db9351c0800000000000000
+      internalID: -4516094681151359888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1104
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5606bcd31b46d9ee0800000000000000
+      internalID: -1252734408930402203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_93
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1104
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ad215ae65848730800000000000000
+      internalID: 4000469079274216079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_94
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1104
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212e3d15b0cfbe730800000000000000
+      internalID: 4029591417160720914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_95
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1104
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fe6ac4a89d18f80800000000000000
+      internalID: -8105958666275459172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_96
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1104
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b62b5bac9d15f380800000000000000
+      internalID: -8938205326719899977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_97
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1104
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7eb1cb8c5e88e450800000000000000
+      internalID: 6118296621915684476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1040
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5b5e87018843640800000000000000
+      internalID: 5058817885773084153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_99
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1040
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db946cf92f48c38b0800000000000000
+      internalID: -5171112094530647619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_100
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1040
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc424e1f0d9006560800000000000000
+      internalID: 7304849388611052749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_101
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1040
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f83a1db2eb17210800000000000000
+      internalID: 1329052460461035266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_102
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1040
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f043240ec36d94500800000000000000
+      internalID: 381071200438334479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_103
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1040
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9612aff13b43b2a20800000000000000
+      internalID: 3038580317531808105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_104
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1040
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63295db024d92e250800000000000000
+      internalID: 5972508962838647350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 976
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55021471ec3f26b0800000000000000
+      internalID: -5318965695888620196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_106
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 976
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799020afb95aafa50800000000000000
+      internalID: 6555734296924129687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_107
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 976
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81da73f794e450d0800000000000000
+      internalID: -3434869274500738674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_108
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 976
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fed2ff75d5f89920800000000000000
+      internalID: 2997415849338527474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_109
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 976
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8469b60ff8f59290800000000000000
+      internalID: -7884121798429023089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 912
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb17921c3213bb20800000000000000
+      internalID: 3148880613681339322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_111
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 912
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28449146c5da8e510800000000000000
+      internalID: 1578702281721332866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_112
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 912
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a3183832ccb4270800000000000000
+      internalID: 8235900796479289957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_113
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 912
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c306ca8301234800800000000000000
+      internalID: 595355874839888834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_114
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 912
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e8e28898199e0c0800000000000000
+      internalID: -4545942328972505585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_115
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 912
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd16a57710f7ed4f0800000000000000
+      internalID: -802064039351262756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_116
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 912
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4505265bf98a7a0800000000000000
+      internalID: -6365662471900867395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_117
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 912
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3afa02e972cda2a0800000000000000
+      internalID: -6724504839855080902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_118
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 912
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0585089ea57c75a0800000000000000
+      internalID: -6522208767604062964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 848
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cbfbcf548bbec70800000000000000
+      internalID: 9001490890962746370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_120
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 848
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a1515e5cb0f8430800000000000000
+      internalID: 3787258756221704718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_121
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 848
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344cac41da0feab00800000000000000
+      internalID: 841874806533702723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_122
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 848
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34850ee564916e90800000000000000
+      internalID: -7034177977470057413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_123
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 848
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca4e560eef599500800000000000000
+      internalID: 403459117540068042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_124
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 784
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c9c1cdda3763bf0800000000000000
+      internalID: -344961130887865276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_125
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 784
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1382650d9d03fd0800000000000000
+      internalID: -2364150315547610709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_126
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 784
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0917dcead560b6460800000000000000
+      internalID: 7235884225735258512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_127
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 784
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42fe659e176b94b0800000000000000
+      internalID: -5432635144438615476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_128
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 784
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62641cad41b5aa20800000000000000
+      internalID: 3073057267907846765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_129
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 784
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfa4420f890d2370800000000000000
+      internalID: 8299300198136721342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_130
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 784
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8cd12a128cab540800000000000000
+      internalID: 5024548381064546547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_131
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 784
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4d197342aac6750800000000000000
+      internalID: 6299597051312329977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_132
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 784
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15396c97a18bdcba0800000000000000
+      internalID: -6066990699146472623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_133
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 784
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce1aabe5e4dd7ae0800000000000000
+      internalID: -1549848612779188532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_134
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127b23ef44e347620800000000000000
+      internalID: 2770908136783132449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_135
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 720
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b2ffb0148660810800000000000000
+      internalID: 1731185735353969540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_136
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 720
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bd542395ffcb800800000000000000
+      internalID: 629658806485638020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_137
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 720
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f68f261e8984d60800000000000000
+      internalID: 7874712042252824360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_138
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 720
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624db11f56d5ac080800000000000000
+      internalID: -9166411399141010394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_139
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 720
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8ee2aeaf61de9e0800000000000000
+      internalID: -1590589826465339224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_140
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 720
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef48c406b9a75a400800000000000000
+      internalID: 334808555063117054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_141
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 656
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17045b7e56d1e41e0800000000000000
+      internalID: -2211798043476017039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_142
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 656
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228445b3a28e05a20800000000000000
+      internalID: 3049192215811475490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_143
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 656
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8448b3d1071a2700800000000000000
+      internalID: 516250403901817997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_144
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 656
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdadc83a040624f0800000000000000
+      internalID: -853990637390942778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_145
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 656
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e1d5873674bb2f0800000000000000
+      internalID: -956092003339395500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_146
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 656
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c5df97dc1dbc820800000000000000
+      internalID: 2939673862234528905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 592
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e709405fb2a819560800000000000000
+      internalID: 7318782790852710526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_148
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 592
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19481bac6153ca70800000000000000
+      internalID: 8846003620254599452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_149
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 592
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808cb9b973a631fb0800000000000000
+      internalID: -4678278800841390072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_150
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 592
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8348174e9e59f6160800000000000000
+      internalID: 7020995175886455864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_151
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 592
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07c47bc591ac93b0800000000000000
+      internalID: -5504346979817961713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_152
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 592
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e248f2c1e50e0250800000000000000
+      internalID: 5912669827980870373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_153
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 592
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcb7dedb29a1fdb0800000000000000
+      internalID: -4759837325266535214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_154
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 592
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84565d143e984ea0800000000000000
+      internalID: -5888282566119238518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_155
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 592
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0621fdd7f423f5dc0800000000000000
+      internalID: -3648141856151236000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_156
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 592
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e330ba2085ecca10800000000000000
+      internalID: 1931170678869865444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_157
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f6852881731a840800000000000000
+      internalID: 5233524820386803612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_158
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 528
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1ed2464b1614500800000000000000
+      internalID: 378691271078568379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_159
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 528
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cb64613f9b4fe70800000000000000
+      internalID: 9148141196798246022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_160
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 528
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c231dd835afc5d60800000000000000
+      internalID: 7880448684760052422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_161
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 528
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde0350965c04ec40800000000000000
+      internalID: 5540567007500635867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_162
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 528
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de4bcaada5c323a0800000000000000
+      internalID: -6691287271656960300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_163
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 528
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c228bbe6744de8020800000000000000
+      internalID: 2346045859172155948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_164
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 464
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8495b8d31dd294de0800000000000000
+      internalID: -1348496236716795576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_165
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 464
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6132d7833f18f0280800000000000000
+      internalID: -9074891842503498986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_166
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 464
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180b8fd392657d0f0800000000000000
+      internalID: -1092309649480699775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_167
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 464
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10056a35f39da9500800000000000000
+      internalID: 403873982612656129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_168
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 464
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751e27fd748e2a080800000000000000
+      internalID: -9177517695238479529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_169
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 464
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152b85ee28f45f5d0800000000000000
+      internalID: -3029427750573657519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_170
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 464
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f3daae4e66c8020800000000000000
+      internalID: 2345362639328984879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_171
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 464
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87982a537f75c6690800000000000000
+      internalID: -7607608951267227272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c1ae42c7a0732d0800000000000000
+      internalID: -3299156673714054057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_173
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 400
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccf931fe38b0cd30800000000000000
+      internalID: 4449759012316642508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_174
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 400
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f82a3fb897ab2c00800000000000000
+      internalID: 876978826938820853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_175
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 400
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4adcd34820f95f4a0800000000000000
+      internalID: -6560162449037865564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_176
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 400
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d069599ff2909fc0800000000000000
+      internalID: -3490128084725047082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_177
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 400
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90330c2d979403fc0800000000000000
+      internalID: -3517230521400675575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_178
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 400
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030e9b0b9f15e3440800000000000000
+      internalID: 4917457975988838448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_179
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257081d60abbc6e90800000000000000
+      internalID: -7031038620532734126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_180
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 336
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4e2e70e25e58de0800000000000000
+      internalID: -1331406128954546946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_181
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 336
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1da7bda113953e0800000000000000
+      internalID: -2064564962751491608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_182
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 336
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7a69638acfa9430800000000000000
+      internalID: 3790619835786242020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_183
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 336
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1a1de90113c97e0800000000000000
+      internalID: -1757475807127559741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_184
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 336
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec4e88a0ef9c9d90800000000000000
+      internalID: -7089615926138614547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_185
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 336
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ea6d254f3f2c690800000000000000
+      internalID: -7583230591851123064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_186
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 336
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dac805978d889830800000000000000
+      internalID: 4078165076044466896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_187
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 336
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04697193952b226a0800000000000000
+      internalID: -6475417217925671360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_188
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 336
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f2cd5afa52db9a0800000000000000
+      internalID: -6215770474369241328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_189
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82768923cb8fc74a0800000000000000
+      internalID: -6594122267190859992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_190
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 272
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab0f96e53396db10800000000000000
+      internalID: 2005952543751867300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_191
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 272
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed2c8dae934a8400800000000000000
+      internalID: 327148271733321192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_192
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 272
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5151dbdc4a53f70800000000000000
+      internalID: 9166413820130039232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_193
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 272
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e3b93becc38cc80800000000000000
+      internalID: -8302319054583284113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_194
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 272
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8d9842f6a194f80800000000000000
+      internalID: -8121931388329273134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_195
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 272
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00347484c47f6f070800000000000000
+      internalID: 8139965283520955136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_196
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6220e0597bc49680800000000000000
+      internalID: -8749144454165683602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_197
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a9c3e9947813dd0800000000000000
+      internalID: -2508074767211521528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_198
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21b993cd130809f0800000000000000
+      internalID: -502147932081245907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_199
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 208
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caafeca845d989880800000000000000
+      internalID: -8603954101659698516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_200
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 208
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008de27d54f4f7dc0800000000000000
+      internalID: -3639102812510562304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_201
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 208
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4e13fdfe56f0170800000000000000
+      internalID: 8146842331852694712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_202
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 208
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e68c5c25d0ceca90800000000000000
+      internalID: -7291678724861425950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_203
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 208
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862d0094569946de0800000000000000
+      internalID: -1340778128754027928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_204
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7192f98e3149c6300800000000000000
+      internalID: 246734892826568983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_205
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b3ea8625d41fa90800000000000000
+      internalID: -7281954106142475444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_206
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f78ee26c031573a0800000000000000
+      internalID: -6668402729331816456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_207
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b12c84dc397fbf0800000000000000
+      internalID: -290601141043848436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_208
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13268554d5006500800000000000000
+      internalID: 387315977479922461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_209
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 144
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94208ea25eb6310c0800000000000000
+      internalID: -4606219361858354615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_210
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 144
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89dcac2e4240aa780800000000000000
+      internalID: -8671113576078193256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_211
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922c29f5c54a4e0d0800000000000000
+      internalID: -3394407502483111383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Barbarian_212
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d333ae9ae5cab3fd0800000000000000
+      internalID: -2361104057048091843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

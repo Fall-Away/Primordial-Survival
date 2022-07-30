@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class SecondSkill : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] float speed = 8;
+    Player player;
     void Start()
     {
-        
     }
 
-    // Update is called once per frame
     void Update()
     {
-        Destroy(gameObject, 1f);
+        transform.Translate(Vector3.right * speed * Time.deltaTime);
+        Destroy(gameObject, 3f);
     }
 }
