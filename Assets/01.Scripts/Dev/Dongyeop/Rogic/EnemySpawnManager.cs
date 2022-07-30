@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class EnemySpawnManager : MonoBehaviour //개미친 코드
 {
-    [Header ("Enemy Prefabs")]
-    [SerializeField] GameObject e;
-    [SerializeField] GameObject flyEnemy;
-    [SerializeField] GameObject boss;
-
     [Header("SpawnTime")]
     [SerializeField] int slowslow = 3;
     [SerializeField] int slow = 2;
@@ -43,10 +38,10 @@ public class EnemySpawnManager : MonoBehaviour //개미친 코드
     {
         #region Enemys
         left_Enemy = GameObject.Find("Left_Enemy").GetComponent<EnemySpawner>();
-        right_Enemy = GameObject.Find("Right_Enemy").GetComponent<EnemySpawner>();
+        //right_Enemy = GameObject.Find("Right_Enemy").GetComponent<EnemySpawner>();
         #endregion
 
-        leftBoss = GameObject.Find("Left_Boss").GetComponent<EnemySpawner>();
+        //leftBoss = GameObject.Find("Left_Boss").GetComponent<EnemySpawner>();
     }
 
     private void Update()
@@ -56,25 +51,25 @@ public class EnemySpawnManager : MonoBehaviour //개미친 코드
         #region 함수 시작용 스크립트
         if (_time < 60 && one == false)
             Spawn1();
-        if (_time < 120 && two == false)
+        if (60 < _time && _time < 120 && two == false)
             Spawn2();
-        if (_time < 180 && three == false)
+        if (120 < _time && _time < 180 && three == false)
             Spawn3();
-        if (_time < 240 && four == false)
+        if (180 < _time && _time < 240 && four == false)
             Spawn4();
-        if (_time < 300 && five == false)
+        if (240 < _time && _time < 300 && five == false)
             Spawn5();
-        if (_time < 360 && six == false)
+        if (300 < _time && _time < 360 && six == false)
             Spawn6();
-        if (_time < 420 && seven == false)
+        if (360 < _time && _time < 420 && seven == false)
             Spawn7();
-        if (_time < 480 && eight == false)
+        if (420 < _time && _time < 480 && eight == false)
             Spawn8();
-        if (_time < 540 && nine == false)
+        if (480 < _time && _time < 540 && nine == false)
             Spawn9();
-        if (_time < 600 && ten == false)
+        if (540 < _time && _time < 600 && ten == false)
             Spawn10();
-        if (_time < 660 && eleven == false)
+        if (600 < _time && _time < 660 && eleven == false)
             END();
         #endregion
     }

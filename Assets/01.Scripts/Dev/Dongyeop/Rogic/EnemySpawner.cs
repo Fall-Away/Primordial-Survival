@@ -21,6 +21,11 @@ public class EnemySpawner : MonoBehaviour
         StopCoroutine(Spawn(spawnTime));
     }
 
+    public void ReturnYOU(GameObject GO)
+    {
+        pooler.ReturnObject(GO);
+    }
+
 
     IEnumerator Spawn(int spawnTime)
     {
