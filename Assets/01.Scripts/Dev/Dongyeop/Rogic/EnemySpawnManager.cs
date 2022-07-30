@@ -28,6 +28,7 @@ public class EnemySpawnManager : MonoBehaviour //개미친 코드
     private bool eight = false;
     private bool nine = false;
     private bool ten = false;
+    private bool eleven = false;
     #endregion
 
     #region Left Enemys
@@ -111,6 +112,8 @@ public class EnemySpawnManager : MonoBehaviour //개미친 코드
             Spawn9();
         if (_time < 600 && ten == false)
             Spawn10();
+        if (_time < 660 && eleven == false)
+            END();
         #endregion
     }
 
@@ -123,6 +126,8 @@ public class EnemySpawnManager : MonoBehaviour //개미친 코드
 
     private void Spawn2()
     {
+        leftEnemy1.StopSpawn(enemy, slowslow);
+
         leftEnemy2.StartSpawn(enemy, slowslow);
         rightEnemy2.StartSpawn(enemy, slowslow);
         two = true;
@@ -130,6 +135,9 @@ public class EnemySpawnManager : MonoBehaviour //개미친 코드
     
     private void Spawn3()
     {
+        leftEnemy2.StopSpawn(enemy, slowslow);
+        rightEnemy2.StopSpawn(enemy, slowslow);
+
         leftEnemy3.StartSpawn(enemy, slow);
         rightEnemy3.StartSpawn(enemy, slow);
 
@@ -138,6 +146,9 @@ public class EnemySpawnManager : MonoBehaviour //개미친 코드
     
     private void Spawn4()
     {
+        leftEnemy3.StopSpawn(enemy, slow);
+        rightEnemy3.StopSpawn(enemy, slow);
+
         leftEnemy4.StartSpawn(enemy, slowslow);
         rightEnemy4.StartSpawn(enemy, slowslow);
 
@@ -146,6 +157,9 @@ public class EnemySpawnManager : MonoBehaviour //개미친 코드
     
     private void Spawn5()
     {
+        leftEnemy4.StopSpawn(enemy, slowslow);
+        rightEnemy4.StopSpawn(enemy, slowslow);
+
         leftEnemy5.StartSpawn(enemy, slow);
         rightEnemy5.StartSpawn(enemy, slow);
 
@@ -154,6 +168,9 @@ public class EnemySpawnManager : MonoBehaviour //개미친 코드
     
     private void Spawn6()
     {
+        leftEnemy5.StopSpawn(enemy, slow);
+        rightEnemy5.StopSpawn(enemy, slow);
+
         leftEnemy6.StartSpawn(enemy, fast);
         rightEnemy6.StartSpawn(enemy, fast);
 
@@ -162,6 +179,9 @@ public class EnemySpawnManager : MonoBehaviour //개미친 코드
     
     private void Spawn7()
     {
+        leftEnemy6.StopSpawn(enemy, fast);
+        rightEnemy6.StopSpawn(enemy, fast);
+
         leftEnemy7.StartSpawn(enemy, fast);
         rightEnemy7.StartSpawn(enemy, fast);
 
@@ -170,6 +190,9 @@ public class EnemySpawnManager : MonoBehaviour //개미친 코드
     
     private void Spawn8()
     {
+        leftEnemy7.StopSpawn(enemy, fast);
+        rightEnemy7.StopSpawn(enemy, fast);
+
         leftEnemy8.StartSpawn(enemy, fast);
         rightEnemy8.StartSpawn(enemy, fast);
 
@@ -178,6 +201,9 @@ public class EnemySpawnManager : MonoBehaviour //개미친 코드
     
     private void Spawn9()
     {
+        leftEnemy8.StopSpawn(enemy, fast);
+        rightEnemy8.StopSpawn(enemy, fast);
+
         leftEnemy9.StartSpawn(enemy, fast);
         rightEnemy9.StartSpawn(enemy, fast);
 
@@ -186,12 +212,24 @@ public class EnemySpawnManager : MonoBehaviour //개미친 코드
     
     private void Spawn10()
     {
+        leftEnemy9.StopSpawn(enemy, fast);
+        rightEnemy9.StopSpawn(enemy, fast);
+
         leftEnemy10.StartSpawn(enemy, fast);
         rightEnemy10.StartSpawn(enemy, fast);
 
         leftBoss10.StartSpawn(boss, 2147483647);
+        leftBoss10.StopSpawn(boss, 2147483647);
 
         ten = true;
+    }
+
+    private void END()
+    {
+        leftEnemy10.StopSpawn(enemy, fast);
+        rightEnemy10.StopSpawn(enemy, fast);
+
+        eleven = true;
     }
     #endregion
 }
