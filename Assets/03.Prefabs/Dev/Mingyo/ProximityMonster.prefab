@@ -72,8 +72,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1257611881
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -1870173771385504564, guid: ff3dce7695fba3d4882cdc3ba23a78e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   effectSound: {fileID: 7973067352170921174, guid: 6a8d3831580b7874880629cc463a3635, type: 3}
-  player: {fileID: 0}
+  player: {fileID: 2395304429188044660, guid: dc750305ada147841b22813e43adf796, type: 3}
   speed: 5
   dmg: 1
   maxHp: 4
@@ -133,7 +133,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

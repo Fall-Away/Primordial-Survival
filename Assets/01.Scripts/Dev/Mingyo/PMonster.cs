@@ -8,7 +8,7 @@ public class PMonster : MonoBehaviour
     SpriteRenderer spriteRenderer;
     Vector2 attackVel;
     public GameObject effectSound;
-    public Transform player;
+    public GameObject player;
     public float speed = 5;
     public float dmg = 1;
     private bool isGround;
@@ -43,17 +43,12 @@ public class PMonster : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (other.gameObject.CompareTag("Ground"))
-        {
+        if (collision.collider.tag == "Ground")
             isGround = true;
-        }
-        if(other.gameObject.CompareTag("Player"))
-        {
-            //사운드
+        if (collision.gameObject.tag == "Player")
             Instantiate(effectSound);
-        }
     }
 
     public void TakeDamage(float damage)
@@ -94,9 +89,9 @@ public class PMonster : MonoBehaviour
         gameObject.GetComponent<BoxCollider2D>().enabled = true;
     }
 
-    void ChasePlayer() //플레이어 추적
+    void ChasePlayer() //플레이어 추적 
     {
-        if(transform.position.x<player.position.x)
+        if(transform.position.x<player.transform.position.x)
         {
             transform.position += Vector3.right * speed *Time.deltaTime;
             transform.eulerAngles = new Vector3(0,180,0);  

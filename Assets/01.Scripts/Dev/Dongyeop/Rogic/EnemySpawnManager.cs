@@ -23,25 +23,31 @@ public class EnemySpawnManager : MonoBehaviour //개미친 코드
     private bool eight = false;
     private bool nine = false;
     private bool ten = false;
-    private bool eleven = false;
     #endregion
 
-    #region Left Enemys
+    #region Enemys
     private EnemySpawner left_Enemy;
     private EnemySpawner right_Enemy;
+
+    private EnemySpawner left_fly_Enemy;
+    private EnemySpawner right_fly_Enemy;
+
+    private EnemySpawner left_Boss;
     #endregion
 
-    private EnemySpawner leftBoss;
 
 
     private void Awake()
     {
         #region Enemys
         left_Enemy = GameObject.Find("Left_Enemy").GetComponent<EnemySpawner>();
-        //right_Enemy = GameObject.Find("Right_Enemy").GetComponent<EnemySpawner>();
-        #endregion
+        right_Enemy = GameObject.Find("Right_Enemy").GetComponent<EnemySpawner>();
+        
+        left_fly_Enemy = GameObject.Find("Left_Fly_Enemy").GetComponent<EnemySpawner>();
+        right_fly_Enemy = GameObject.Find("Right_Fly_Enemy").GetComponent<EnemySpawner>();
 
-        //leftBoss = GameObject.Find("Left_Boss").GetComponent<EnemySpawner>();
+        left_Boss = GameObject.Find("Left_Boss").GetComponent<EnemySpawner>();
+        #endregion
     }
 
     private void Update()
@@ -69,8 +75,6 @@ public class EnemySpawnManager : MonoBehaviour //개미친 코드
             Spawn9();
         if (540 < _time && _time < 600 && ten == false)
             Spawn10();
-        if (600 < _time && _time < 660 && eleven == false)
-            END();
         #endregion
     }
 
@@ -83,8 +87,6 @@ public class EnemySpawnManager : MonoBehaviour //개미친 코드
 
     private void Spawn2()
     {
-        left_Enemy.StopSpawn(slowslow);
-
         left_Enemy.StartSpawn(slowslow);
         right_Enemy.StartSpawn(slowslow);
         two = true;
@@ -92,9 +94,6 @@ public class EnemySpawnManager : MonoBehaviour //개미친 코드
     
     private void Spawn3()
     {
-        left_Enemy.StopSpawn(slowslow);
-        right_Enemy.StopSpawn(slowslow);
-
         left_Enemy.StartSpawn(slow);
         right_Enemy.StartSpawn(slow);
 
@@ -103,90 +102,81 @@ public class EnemySpawnManager : MonoBehaviour //개미친 코드
     
     private void Spawn4()
     {
-        left_Enemy.StopSpawn(slow);
-        right_Enemy.StopSpawn(slow);
-
         left_Enemy.StartSpawn(slowslow);
         right_Enemy.StartSpawn(slowslow);
+
+        left_fly_Enemy.StartSpawn(slowslow);
+        right_fly_Enemy.StartSpawn(slowslow);
 
         four = true;
     }
     
     private void Spawn5()
     {
-        left_Enemy.StopSpawn(slowslow);
-        right_Enemy.StopSpawn(slowslow);
-
         left_Enemy.StartSpawn(slow);
         right_Enemy.StartSpawn(slow);
+
+        left_fly_Enemy.StartSpawn(slow);
+        right_fly_Enemy.StartSpawn(slow);
 
         five = true;
     }
     
     private void Spawn6()
     {
-        left_Enemy.StopSpawn(slow);
-        right_Enemy.StopSpawn(slow);
-
         left_Enemy.StartSpawn(fast);
         right_Enemy.StartSpawn(fast);
+
+        left_fly_Enemy.StartSpawn(slow);
+        right_fly_Enemy.StartSpawn(slow);
 
         six = true;
     }
     
     private void Spawn7()
     {
-        left_Enemy.StopSpawn(fast);
-        right_Enemy.StopSpawn(fast);
-
         left_Enemy.StartSpawn(fast);
         right_Enemy.StartSpawn(fast);
+
+        left_fly_Enemy.StartSpawn(slow);
+        right_fly_Enemy.StartSpawn(slow);
 
         seven = true;
     }
     
     private void Spawn8()
     {
-        left_Enemy.StopSpawn(fast);
-        right_Enemy.StopSpawn(fast);
-
         left_Enemy.StartSpawn(fast);
         right_Enemy.StartSpawn(fast);
+
+        left_fly_Enemy.StartSpawn(slow);
+        right_fly_Enemy.StartSpawn(slow);
 
         eight = true;
     }
     
     private void Spawn9()
     {
-        left_Enemy.StopSpawn(fast);
-        right_Enemy.StopSpawn(fast);
-
         left_Enemy.StartSpawn(fast);
         right_Enemy.StartSpawn(fast);
+
+        left_fly_Enemy.StartSpawn(fast);
+        right_fly_Enemy.StartSpawn(fast);
 
         nine = true;
     }
     
     private void Spawn10()
     {
-        left_Enemy.StopSpawn(fast);
-        right_Enemy.StopSpawn(fast);
-
         left_Enemy.StartSpawn(fast);
         right_Enemy.StartSpawn(fast);
 
-        leftBoss.StartSpawn(2147483647);
-        leftBoss.StopSpawn(2147483647);
+        left_fly_Enemy.StartSpawn(fast);
+        right_fly_Enemy.StartSpawn(fast);
+
+        left_Boss.StartSpawn(2147483647);
 
         ten = true;
-    }
-
-    private void END()
-    {
-        left_Enemy.StopSpawn(fast);
-        right_Enemy.StopSpawn(fast);
-
-        eleven = true;
     }
     #endregion
 }
