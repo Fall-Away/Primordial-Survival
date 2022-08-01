@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 8868799707979975801}
   - component: {fileID: 8868799707979975802}
   - component: {fileID: 8868799707979975800}
-  - component: {fileID: 757058933}
   - component: {fileID: 757058932}
+  - component: {fileID: 2731190099515787597}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Untagged
@@ -99,22 +99,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 7
   HP: 2
---- !u!58 &757058933
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8868799707979975803}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.10121117, y: -0.023017643}
-  serializedVersion: 2
-  m_Radius: 0.19290748
 --- !u!95 &757058932
 Animator:
   serializedVersion: 3
@@ -134,3 +118,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!58 &2731190099515787597
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8868799707979975803}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.09572296, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.18070005
