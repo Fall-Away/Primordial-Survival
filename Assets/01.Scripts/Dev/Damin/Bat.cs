@@ -16,7 +16,7 @@ public float HP=2;
 
  void Update()
  {
-vec= new Vector3(rad,0,0);
+  vec= new Vector3(rad,0,0);
  }
 
  void Start()
@@ -31,26 +31,30 @@ vec= new Vector3(rad,0,0);
         
     transform.position+= vec * speed * Time.deltaTime;
 
-        if(rad == -1)
-        {
-            transform.eulerAngles= new Vector3(0,180,0);
-        }
-            else if(rad == 1)
-            {
-                    transform.eulerAngles= new Vector3(0,0,0);
-            }
+     
 
     }
 
     IEnumerator enemyai(){
         rad = Random.Range(-1,2);
-         wiatrad =Random.Range(1,3);
+       wiatrad =Random.Range(1,2.6f);
+          if(rad == -1)
+        {
+            //transform.Rotate(0,180,0);
+            transform.eulerAngles= new Vector3(0,180,0);
+        }
+            else if(rad == 1)
+            {
+                  //transform.Rotate(0,0,0);
+                  transform.eulerAngles= new Vector3(0,0,0);
+            }
         yield return new WaitForSeconds(wiatrad);
       StartCoroutine("enemyai");
     }
 
-    void OntriggerEnter2D(CircleCollider2D other)
+  void OnTriggerEnter2D(Collider2D other)
     {
+      Debug.Log("1111");
         //여기 있는것들은 병합하고나서 플래이어 공격이랑 연동해서
         //if(isDie == false)
                 // if()
@@ -58,6 +62,17 @@ vec= new Vector3(rad,0,0);
                 //     StartCoroutine(die());
                 // }
          //}
+         if(other.CompareTag("Ground"))
+         {
+          if(rad == -1)
+            {
+             rad= 1;
+            }
+              else
+              {
+                rad= -1;
+              }
+         }
     }
     
     IEnumerator die()
