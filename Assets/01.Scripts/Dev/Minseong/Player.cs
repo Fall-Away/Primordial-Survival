@@ -19,6 +19,8 @@ public class Player : MonoBehaviour
     float curFirstSkillTime;
     float curSecondSkillTime;
 
+    public int HP = 10;
+
     [SerializeField] GameObject _defAttack;
     [SerializeField] GameObject DefAttackPos;
     //
@@ -44,6 +46,7 @@ public class Player : MonoBehaviour
         curSecondSkillTime += Time.deltaTime;
         Move();
         Fire();
+        Die();
     }
     float x;
     void Move()
@@ -96,6 +99,13 @@ public class Player : MonoBehaviour
         //q rlqhs
         //w skill
         //e skill
+    }
+    void Die()
+    {
+        if (HP <= 0)
+        {
+            animator.SetBool("isDie", true);
+        }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
