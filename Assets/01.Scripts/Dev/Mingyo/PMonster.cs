@@ -7,6 +7,7 @@ public class PMonster : MonoBehaviour
     Rigidbody2D rb;
     SpriteRenderer spriteRenderer;
     Vector2 attackVel;
+    public GameObject effectSound;
     public Transform player;
     public float speed = 5;
     public float dmg = 1;
@@ -48,6 +49,11 @@ public class PMonster : MonoBehaviour
         {
             isGround = true;
         }
+        if(other.gameObject.CompareTag("Player"))
+        {
+            //사운드
+            Instantiate(effectSound);
+        }
     }
 
     public void TakeDamage(float damage)
@@ -72,6 +78,7 @@ public class PMonster : MonoBehaviour
         if(currentHp <= 0)
         {
             gameObject.SetActive(false);
+            gameObject.GetComponent<BoxCollider2D>().enabled = false;
         }
     }
 
