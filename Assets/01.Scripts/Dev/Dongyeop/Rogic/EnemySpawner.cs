@@ -6,6 +6,9 @@ public class EnemySpawner : MonoBehaviour
 {
     ObjectPooler pooler;
 
+    private int _spawnScore = 0;
+    private int _spawnScoreMax;
+
     private void Awake()
     {
         pooler = GetComponent<ObjectPooler>();
@@ -16,11 +19,6 @@ public class EnemySpawner : MonoBehaviour
         StartCoroutine(Spawn(spawnTime));
     }
 
-    public void StopSpawn(int spawnTime)
-    {
-        StopCoroutine(Spawn(spawnTime));
-    }
-
     public void ReturnYOU(GameObject GO)
     {
         pooler.ReturnObject(GO);
@@ -29,9 +27,33 @@ public class EnemySpawner : MonoBehaviour
 
     IEnumerator Spawn(int spawnTime)
     {
+        _spawnScore = 0;
+
+        switch (spawnTime)
+        {
+            case 1:
+                _spawnScoreMax = 60;
+                break;
+            case 2:
+                _spawnScoreMax = 30;
+                break;
+            case 3:
+                _spawnScoreMax = 20;
+                break;
+            default:
+                _spawnScoreMax = 1;
+                break;
+        }
+
         while (true)
         {
+            _spawnScore++;
+
             pooler.SpawnObject(transform.position, Quaternion.identity);
+
+            if (_spawnScore == _spawnScoreMax)
+                break;
+
             yield return new WaitForSeconds(spawnTime);
         }
     }
