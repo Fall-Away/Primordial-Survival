@@ -8,7 +8,6 @@ public class Heart : MonoBehaviour
 
     private float _realTime;
 
-    private bool _isGray = true;
     private bool _isRun = true;
 
     private void Awake()
