@@ -17,6 +17,7 @@ public float HP=2;
  void Update()
  {
   vec= new Vector3(rad,0,0);
+   transform.position+= vec * speed * Time.deltaTime;
  }
 
  void Start()
@@ -26,14 +27,7 @@ public float HP=2;
   }
 
 
-    void FixedUpdate()
-    {
-        
-    transform.position+= vec * speed * Time.deltaTime;
-
-     
-
-    }
+ 
 
     IEnumerator enemyai(){
         rad = Random.Range(-1,2);
@@ -52,7 +46,7 @@ public float HP=2;
       StartCoroutine("enemyai");
     }
 
-  void OnTriggerEnter2D(Collider2D other)
+ private void OnTriggerEnter2D(Collider2D other)
     {
       Debug.Log("1111");
         //여기 있는것들은 병합하고나서 플래이어 공격이랑 연동해서
@@ -67,10 +61,12 @@ public float HP=2;
           if(rad == -1)
             {
              rad= 1;
+                  transform.eulerAngles= new Vector3(0,0,0);
             }
               else
               {
                 rad= -1;
+                   transform.eulerAngles= new Vector3(0,180,0);
               }
          }
     }

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class one_Distance_Enemy : MonoBehaviour
 {
-  [SerializeField]
-    Transform player;
+
+   private Transform player;
 
     [SerializeField]
     float agroRange;
@@ -17,27 +17,59 @@ public class one_Distance_Enemy : MonoBehaviour
     private float distoplayer;
     private bool isGround;
     Rigidbody2D rb;
+    private float curTime=0;
+    [SerializeField]private float coolTime;
+    Animator animator;
+    [SerializeField]
+     private Transform boxPos;
+    [SerializeField]
+    private Vector2 boxsize;
+     private bool attacknow=false;
+   private  GameObject Playerobj;
 
 void Start()
 {
+  Playerobj = GameObject.FindGameObjectWithTag("Player");
+  player = Playerobj.transform;
+  animator=GetComponent<Animator>();
   rb = GetComponent<Rigidbody2D>();
 }
 
     // Update is called once per frame
     void Update()
     {
-         Jump(); 
+      
 
          distoplayer = Vector2.Distance(transform.position,player.position);
 
-         if(distoplayer<agroRange)
+
+   if(distoplayer<agroRange)
         {
-          ChasePlayer(); 
+          if(curTime<=0)
+          { 
+            StartCoroutine(attackwait());
+          }   
+          else
+          {
+              curTime-=Time.deltaTime;
+          }
         }
+        else
+        {
+          if(attacknow == false)
+          {
+            ChasePlayer();
+          }
+           curTime-=Time.deltaTime;
+        }
+     
+
+        
     }
 
     void ChasePlayer()
     {    
+      animator.SetBool("walk",true);
       if(transform.position.x<player.position.x)
         {
          transform.position+= Vector3.right * movespeed *Time.deltaTime;
@@ -50,15 +82,7 @@ void Start()
           }
     }
   
-    private void Jump()
-    {
-        if(isGround == true)
-        {
-          rb.AddForce(Vector3.up * JumpPower,ForceMode2D.Impulse);
-        //  rb.velocity = new Vector2(0, 1 * JumpPower);
-            isGround = false;
-        }
-    }
+  
       private void OnCollisionEnter2D(Collision2D collision)
       {
         if(collision.gameObject.CompareTag("Ground"))
@@ -70,4 +94,30 @@ void Start()
             isGround = false;
           }
       }
+      private void OnDrawGizmos()
+      {
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireCube(boxPos.position,boxsize);
+
+      }
+    IEnumerator attackwait()
+    {
+      animator.SetBool("walk",false);
+          curTime=coolTime;
+      attacknow = true;
+             animator.SetTrigger("attack");
+              yield return new WaitForSeconds(0.765f);
+                Collider2D[] collider2Ds =Physics2D.OverlapBoxAll(boxPos.position,boxsize,0);
+                foreach(Collider2D collider in collider2Ds)
+                  {
+                      if(collider.tag == "Player")
+                      {
+                        Debug.Log("22222");
+                        //적대미지주는스크립트써야됨
+                      }
+                  }
+                    yield return new WaitForSeconds(0.19f);
+                  attacknow=false;
+             
+    }
 }
