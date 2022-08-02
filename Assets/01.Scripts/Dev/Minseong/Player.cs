@@ -12,10 +12,10 @@ public class Player : MonoBehaviour
     [SerializeField] float moveSpeed;
     [SerializeField] float jumpPower;
 
-    [SerializeField] float defSkillTime;
+    [SerializeField] float defSkillTime = 5f;
     [SerializeField] float firstSkillTime = 5;
     [SerializeField] float secondSkillTime = 8;
-    float curDefSkillTime;
+    [SerializeField]float curDefSkillTime;
     float curFirstSkillTime;
     float curSecondSkillTime;
 
@@ -89,6 +89,7 @@ public class Player : MonoBehaviour
         {
             Instantiate(_firstSkill, transform.position, Quaternion.identity);
             curFirstSkillTime = 0;
+            animator.SetTrigger("FirstSkill");
         }
         if (Input.GetKeyDown(KeyCode.E) && curSecondSkillTime >= secondSkillTime)
         {
