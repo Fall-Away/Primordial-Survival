@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FirstSkill : MonoBehaviour
 {
+    [SerializeField] float damage;
     void Start()
     {
         
@@ -11,6 +12,13 @@ public class FirstSkill : MonoBehaviour
 
     void Update()
     {
-        Destroy(gameObject, 1);
+        Destroy(gameObject, 0.35f);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            //collision.GetComponent<Enemy>().HP -= damage;
+        }
     }
 }
