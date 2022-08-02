@@ -29,14 +29,21 @@ public class EnemySpawner : MonoBehaviour
     {
         _spawnScore = 0;
 
-        if (spawnTime == 3)
-            _spawnScoreMax = 20;
-        else if (spawnTime == 2)
-            _spawnScoreMax = 30;
-        else if (spawnTime == 1)
-            _spawnScoreMax = 60;
-        else
-            _spawnScoreMax = 1;
+        switch (spawnTime)
+        {
+            case 1:
+                _spawnScoreMax = 60;
+                break;
+            case 2:
+                _spawnScoreMax = 30;
+                break;
+            case 3:
+                _spawnScoreMax = 20;
+                break;
+            default:
+                _spawnScoreMax = 1;
+                break;
+        }
 
         while (true)
         {

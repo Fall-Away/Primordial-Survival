@@ -52,7 +52,7 @@ public float HP=2;
       StartCoroutine("enemyai");
     }
 
-  void OnTriggerEnter2D(Collider2D other) //Trigger 끄고 콜리전으로 바꾸세요.
+  void OnTriggerEnter2D(Collider2D other)
     {
       Debug.Log("1111");
         //여기 있는것들은 병합하고나서 플래이어 공격이랑 연동해서

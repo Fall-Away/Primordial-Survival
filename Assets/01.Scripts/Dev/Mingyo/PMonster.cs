@@ -8,7 +8,7 @@ public class PMonster : MonoBehaviour
     SpriteRenderer spriteRenderer;
     Vector2 attackVel;
     public GameObject effectSound;
-    public GameObject player;
+    public Transform player;
     public float speed = 5;
     public float dmg = 1;
     private bool isGround;
