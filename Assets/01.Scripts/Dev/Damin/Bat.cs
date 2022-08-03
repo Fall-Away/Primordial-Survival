@@ -8,9 +8,8 @@ public class Bat : MonoBehaviour
   public float speed;
  private int rad;
   private float  wiatrad;
-private  bool isfollow= false;
-private float damage = 2;
-public float HP=2;
+private int damage = 2;
+public int HP=2;
  Vector3 vec;
  private bool isDie = false;
 
@@ -18,6 +17,10 @@ public float HP=2;
  {
   vec= new Vector3(rad,0,0);
    transform.position+= vec * speed * Time.deltaTime;
+   if(HP<=0 && isDie ==false)
+   {
+    StartCoroutine(die());
+   }
  }
 
  void Start()
@@ -49,6 +52,10 @@ public float HP=2;
  private void OnTriggerEnter2D(Collider2D other)
     {
       Debug.Log("1111");
+      if(other.CompareTag("Player"))
+      {
+        other.GetComponent<Player>().HP -= damage;
+      }
         //여기 있는것들은 병합하고나서 플래이어 공격이랑 연동해서
         //if(isDie == false)
                 // if()
@@ -73,9 +80,11 @@ public float HP=2;
     
     IEnumerator die()
     {
-        isDie = true;
+      isDie=true;
        animator.SetTrigger("DIE");
-       yield return new WaitForSeconds(0.06f);
+        gameObject.GetComponent<CircleCollider2D>().enabled = false;
+       yield return new WaitForSeconds(0.67f);
        Destroy(gameObject);
     }
+
 }
