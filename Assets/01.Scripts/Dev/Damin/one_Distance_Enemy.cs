@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class one_Distance_Enemy : MonoBehaviour
 {
+  [SerializeField]AudioSource attcksound;
   public int HP =25;
   public int damage = 7;
    private Transform player;
@@ -106,12 +107,14 @@ void Start()
     IEnumerator attackwait()
     {
       animator.SetBool("walk",false);
-          curTime=coolTime;
+      curTime=coolTime;
       attacknow = true;
-             animator.SetTrigger("attack");
-              yield return new WaitForSeconds(0.765f);
-                Collider2D[] collider2Ds =Physics2D.OverlapBoxAll(boxPos.position,boxsize,0);
-                foreach(Collider2D collider in collider2Ds)
+      animator.SetTrigger("attack");
+      yield return new WaitForSeconds(0.765f);
+      AudioSource audio = Instantiate(attcksound);
+     audio.transform.position = transform.position;
+     Collider2D[] collider2Ds =Physics2D.OverlapBoxAll(boxPos.position,boxsize,0);
+      foreach(Collider2D collider in collider2Ds)
                   {
                       if(collider.tag == "Player")
                       {
@@ -120,9 +123,8 @@ void Start()
                          collider.GetComponent<Player>().HP -= damage;
                       }
                   }
-                    yield return new WaitForSeconds(0.19f);
-                  attacknow=false;
-             
+    yield return new WaitForSeconds(0.19f);
+     attacknow=false;
     }
     public void TakeDamage(int damage)
     {

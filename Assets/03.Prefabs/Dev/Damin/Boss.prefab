@@ -99,6 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5168d1a3ec9e394b9448cdacdc68feb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attcksound: {fileID: 214443367187782719, guid: fce117e963377c2488e937ca3070ce6c, type: 3}
   HP: 25
   damage: 7
   agroRange: 4
