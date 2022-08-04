@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class one_Distance_Enemy : MonoBehaviour
 {
-
+  public int HP =25;
+  public int damage = 7;
    private Transform player;
 
     [SerializeField]
@@ -26,6 +27,7 @@ public class one_Distance_Enemy : MonoBehaviour
     private Vector2 boxsize;
      private bool attacknow=false;
    private  GameObject Playerobj;
+   private bool isDie;
 
 void Start()
 {
@@ -38,7 +40,7 @@ void Start()
     // Update is called once per frame
     void Update()
     {
-      
+ 
 
          distoplayer = Vector2.Distance(transform.position,player.position);
 
@@ -63,7 +65,10 @@ void Start()
            curTime-=Time.deltaTime;
         }
      
-
+ if(HP<=0 && isDie ==false)
+      {
+        StartCoroutine(die());
+      }
         
     }
 
@@ -112,12 +117,25 @@ void Start()
                   {
                       if(collider.tag == "Player")
                       {
+                            
                         Debug.Log("22222");
-                        //적대미지주는스크립트써야됨
+                         collider.GetComponent<Player>().HP -= damage;
                       }
                   }
                     yield return new WaitForSeconds(0.19f);
                   attacknow=false;
              
+    }
+    IEnumerator die()
+    {
+      isDie=true;
+      attacknow=true;
+      curTime=100;
+      animator.SetBool("walk",false);
+      gameObject.GetComponent<Rigidbody2D>().gravityScale=0;
+       gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
+       animator.SetTrigger("die");
+       yield return new WaitForSeconds(1.9f);
+       Destroy(gameObject);
     }
 }
