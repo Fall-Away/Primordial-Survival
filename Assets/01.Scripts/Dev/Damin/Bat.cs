@@ -11,16 +11,13 @@ public class Bat : MonoBehaviour
 private int damage = 2;
 public int HP=2;
  Vector3 vec;
- private bool isDie = false;
+
 
  void Update()
  {
   vec= new Vector3(rad,0,0);
    transform.position+= vec * speed * Time.deltaTime;
-   if(HP<=0 && isDie ==false)
-   {
-    StartCoroutine(die());
-   }
+
  }
 
  void Start()
@@ -77,10 +74,16 @@ public int HP=2;
               }
          }
     }
-    
+    public void TakeDamage(int damage)
+    {
+      HP-=damage;
+        if(HP<=0)
+   {
+    StartCoroutine(die());
+   }
+    }
     IEnumerator die()
     {
-      isDie=true;
        animator.SetTrigger("DIE");
         gameObject.GetComponent<CircleCollider2D>().enabled = false;
        yield return new WaitForSeconds(0.67f);
