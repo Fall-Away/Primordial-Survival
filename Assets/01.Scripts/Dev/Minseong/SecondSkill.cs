@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SecondSkill : MonoBehaviour
 {
-    [SerializeField] float damage;
+    [SerializeField] int damage;
     [SerializeField] float speed = 8;
     Player player;
     Vector3 dir;
@@ -28,11 +28,11 @@ public class SecondSkill : MonoBehaviour
         transform.Translate(dir * speed * Time.deltaTime);
         Destroy(gameObject, 3f);
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (other.gameObject.CompareTag("Slime"))
         {
-            //collision.GetComponent<Enemy>().HP -= damage;
+            other.GetComponent<PMonster>().TakeDamage(damage);
         }
     }
 }

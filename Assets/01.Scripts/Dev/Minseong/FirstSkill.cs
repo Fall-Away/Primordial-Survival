@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FirstSkill : MonoBehaviour
 {
-    [SerializeField] float damage;
+    [SerializeField] int damage;
     void Start()
     {
         
@@ -14,11 +14,11 @@ public class FirstSkill : MonoBehaviour
     {
         Destroy(gameObject, 0.35f);
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (other.gameObject.CompareTag("Slime"))
         {
-            //collision.GetComponent<Enemy>().HP -= damage;
+            other.GetComponent<PMonster>().TakeDamage(damage);
         }
     }
 }
