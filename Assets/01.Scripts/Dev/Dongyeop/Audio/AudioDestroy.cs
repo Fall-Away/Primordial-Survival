@@ -12,7 +12,7 @@ public class AudioDestroy : MonoBehaviour
     {
         _realTime += Time.deltaTime;
 
-        if (destroyTime > _realTime)
+        if (destroyTime < _realTime)
             Destroy(gameObject);
     }
 }
