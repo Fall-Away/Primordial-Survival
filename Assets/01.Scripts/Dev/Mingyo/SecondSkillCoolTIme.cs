@@ -16,6 +16,8 @@ public class SecondSkillCoolTIme : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (FindObjectOfType<PauseMenu>()._isToggled) return;
+
         SkillCoolTime();
     }
 

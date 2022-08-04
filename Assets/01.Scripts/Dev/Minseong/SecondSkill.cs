@@ -8,6 +8,14 @@ public class SecondSkill : MonoBehaviour
     [SerializeField] float speed = 8;
     Player player;
     Vector3 dir;
+
+    private CapsuleCollider2D _capsuleCollider;
+
+    private void Awake()
+    {
+        _capsuleCollider = GetComponent<CapsuleCollider2D>();
+    }
+
     void Start()
     {
         dir = new Vector3(GameObject.Find("Player").GetComponent<Transform>().localScale.x, 0, 0);
@@ -27,6 +35,9 @@ public class SecondSkill : MonoBehaviour
     {
         transform.Translate(dir * speed * Time.deltaTime);
         Destroy(gameObject, 3f);
+
+        if (_capsuleCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
+            Destroy(gameObject);
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
