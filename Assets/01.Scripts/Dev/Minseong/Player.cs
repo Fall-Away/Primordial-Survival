@@ -38,6 +38,7 @@ public class Player : MonoBehaviour
 
     bool isJump;
     bool facingRight;
+    bool isPause;
     private bool _playerDie = false;
 
     void Start()
@@ -46,16 +47,19 @@ public class Player : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        boxCollid = GetComponent<BoxCollider2D>();
     }
 
     void Update()
     {
         if (_playerDie == true) return;
+        if (FindObjectOfType<PauseMenu>()._isToggled) return;
 
         curDefSkillTime += Time.deltaTime;
         curFirstSkillTime += Time.deltaTime;
         curSecondSkillTime += Time.deltaTime;
         Move();
+        Jump();
         Fire();
         Die();
     }
@@ -70,18 +74,18 @@ public class Player : MonoBehaviour
         bool playerHasHorizontalSpeed = Mathf.Abs(x) > Mathf.Epsilon;
         animator.SetBool("isRunning", playerHasHorizontalSpeed);
 
-        if (Input.GetKeyDown(KeyCode.Space) && !isJump)
+        if(x > 0 && facingRight) { Flip(); }
+        if(x < 0 && !facingRight) { Flip(); }
+    }
+    void Jump()
+    {
+        if (!boxCollid.IsTouchingLayers(LayerMask.GetMask("Ground"))) return;
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             rigid.AddForce(Vector2.up * jumpPower);
             isJump = true;
+            Debug.Log("jump");
         }
-        //if (boxCollid.IsTouchingLayers(10/*���⿡���⿡���⿡���⿡���⿡ �׶��� ���̾� ������*/))
-        {
-            isJump = false;
-        }
-
-        if(x > 0 && facingRight) { Flip(); }
-        if(x < 0 && !facingRight) { Flip(); }
     }
     void Flip()
     {
@@ -129,11 +133,8 @@ public class Player : MonoBehaviour
     IEnumerator Wait()
     {
         gameObject.GetComponent<SpriteRenderer>().color = Color.red;
-        Debug.Log("red");
         yield return new WaitForSeconds(0.1f);
-        Debug.Log("���");
         gameObject.GetComponent<SpriteRenderer>().color = Color.white;
-        Debug.Log("��");
         StopCoroutine(Wait());
     }
 

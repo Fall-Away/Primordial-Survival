@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     [SerializeField] GameObject pauseMenuUI;
-    private bool _isToggled;
+    public bool _isToggled;
 
     private void Update()
     {
