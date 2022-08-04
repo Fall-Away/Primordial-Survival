@@ -75,7 +75,7 @@ public class Player : MonoBehaviour
             rigid.AddForce(Vector2.up * jumpPower);
             isJump = true;
         }
-        //if (boxCollid.IsTouchingLayers(10/*¿©±â¿¡¿©±â¿¡¿©±â¿¡¿©±â¿¡¿©±â¿¡ ±×¶ó¿îµå ·¹ÀÌ¾î ³ÊÀ¸¼À*/))
+        //if (boxCollid.IsTouchingLayers(10/*ï¿½ï¿½ï¿½â¿¡ï¿½ï¿½ï¿½â¿¡ï¿½ï¿½ï¿½â¿¡ï¿½ï¿½ï¿½â¿¡ï¿½ï¿½ï¿½â¿¡ ï¿½×¶ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì¾ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/))
         {
             isJump = false;
         }
@@ -131,9 +131,9 @@ public class Player : MonoBehaviour
         gameObject.GetComponent<SpriteRenderer>().color = Color.red;
         Debug.Log("red");
         yield return new WaitForSeconds(0.1f);
-        Debug.Log("±â´Þ");
+        Debug.Log("ï¿½ï¿½ï¿½");
         gameObject.GetComponent<SpriteRenderer>().color = Color.white;
-        Debug.Log("¿ø");
+        Debug.Log("ï¿½ï¿½");
         StopCoroutine(Wait());
     }
 

@@ -1,14 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class FirstSkill : MonoBehaviour
 {
     [SerializeField] int damage;
-    void Start()
-    {
-        
-    }
 
     void Update()
     {
