@@ -9,10 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 10766395}
-  - component: {fileID: 10766397}
   - component: {fileID: 10766396}
   m_Layer: 0
-  m_Name: Right_Enemy (1)
+  m_Name: Right_Fly_Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,20 +31,6 @@ Transform:
   m_Father: {fileID: 52278845927429628}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &10766397
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 10766394}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5575f63c570889c49b1714b10a4105c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 8868799707979975803, guid: cc8d29d028ca8fb488e7c4b6064509f3, type: 3}
-  poolSize: 10
 --- !u!114 &10766396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58,6 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d62a028c29455ff4cbc822175d4f42b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  prefab: {fileID: 8868799707979975803, guid: cc8d29d028ca8fb488e7c4b6064509f3, type: 3}
 --- !u!1 &376181349
 GameObject:
   m_ObjectHideFlags: 0
@@ -67,10 +53,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 376181350}
-  - component: {fileID: 376181352}
   - component: {fileID: 376181351}
   m_Layer: 0
-  m_Name: Left_Enemy (1)
+  m_Name: Left_Fly_Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90,20 +75,6 @@ Transform:
   m_Father: {fileID: 52278844685351966}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &376181352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 376181349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5575f63c570889c49b1714b10a4105c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 8868799707979975803, guid: cc8d29d028ca8fb488e7c4b6064509f3, type: 3}
-  poolSize: 10
 --- !u!114 &376181351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,6 +87,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d62a028c29455ff4cbc822175d4f42b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  prefab: {fileID: 8868799707979975803, guid: cc8d29d028ca8fb488e7c4b6064509f3, type: 3}
 --- !u!1 &52278844678059505
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,7 +97,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 52278844678059510}
-  - component: {fileID: 52278844678059508}
   - component: {fileID: 52278844678059511}
   m_Layer: 0
   m_Name: Right_Enemy
@@ -148,20 +119,6 @@ Transform:
   m_Father: {fileID: 52278845927429628}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &52278844678059508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 52278844678059505}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5575f63c570889c49b1714b10a4105c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 5260767060658389111, guid: 937e296f39a7fe146ae022ba6f836f46, type: 3}
-  poolSize: 10
 --- !u!114 &52278844678059511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -174,6 +131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d62a028c29455ff4cbc822175d4f42b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  prefab: {fileID: 5260767060658389111, guid: 937e296f39a7fe146ae022ba6f836f46, type: 3}
 --- !u!1 &52278844685351961
 GameObject:
   m_ObjectHideFlags: 0
@@ -216,7 +174,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 52278844691119460}
-  - component: {fileID: 52278844691119466}
   - component: {fileID: 52278844691119461}
   m_Layer: 0
   m_Name: Left_Boss
@@ -224,7 +181,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &52278844691119460
 Transform:
   m_ObjectHideFlags: 0
@@ -239,20 +196,6 @@ Transform:
   m_Father: {fileID: 52278844685351966}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &52278844691119466
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 52278844691119463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5575f63c570889c49b1714b10a4105c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 1913399751005831046, guid: 61eed3d6bb69fa949bd7ed9bd0eaa69c, type: 3}
-  poolSize: 10
 --- !u!114 &52278844691119461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -265,6 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d62a028c29455ff4cbc822175d4f42b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  prefab: {fileID: 7807059817696676989, guid: bfb0f7a00b6871c4c85af4d25ac0e579, type: 3}
 --- !u!1 &52278845212092071
 GameObject:
   m_ObjectHideFlags: 0
@@ -274,7 +218,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 52278845212092068}
-  - component: {fileID: 52278845212092074}
   - component: {fileID: 52278845212092069}
   m_Layer: 0
   m_Name: Left_Enemy
@@ -297,20 +240,6 @@ Transform:
   m_Father: {fileID: 52278844685351966}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &52278845212092074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 52278845212092071}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5575f63c570889c49b1714b10a4105c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 5260767060658389111, guid: 937e296f39a7fe146ae022ba6f836f46, type: 3}
-  poolSize: 10
 --- !u!114 &52278845212092069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -323,6 +252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d62a028c29455ff4cbc822175d4f42b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  prefab: {fileID: 5260767060658389111, guid: 937e296f39a7fe146ae022ba6f836f46, type: 3}
 --- !u!1 &52278845229700205
 GameObject:
   m_ObjectHideFlags: 0
