@@ -24,11 +24,16 @@ public class Player : MonoBehaviour
 
     [SerializeField] GameObject _defAttack;
     [SerializeField] GameObject DefAttackPos;
+    [SerializeField] GameObject _defAttackSound;
     //
     [SerializeField] GameObject _firstSkill;
+    [SerializeField] GameObject _firstSkillSound;
     //
     [SerializeField] GameObject _secondSkill;
     [SerializeField] GameObject SecondSkillPos;
+    [SerializeField] GameObject _secondSkillSound;
+
+    [SerializeField] GameObject _getDamageSound;
 
     bool isJump;
     bool facingRight;
@@ -89,17 +94,20 @@ public class Player : MonoBehaviour
             Instantiate(_defAttack, DefAttackPos.transform.position, Quaternion.identity);
             curDefSkillTime = 0;
             animator.SetTrigger("isAttack");
+            Instantiate(_defAttackSound);
         }
         if (Input.GetKeyDown(KeyCode.W) && curFirstSkillTime >= firstSkillTime)
         {
             Instantiate(_firstSkill, transform.position, Quaternion.identity);
             curFirstSkillTime = 0;
             animator.SetTrigger("FirstSkill");
+            Instantiate(_firstSkillSound);
         }
         if (Input.GetKeyDown(KeyCode.E) && curSecondSkillTime >= secondSkillTime)
         {
             Instantiate(_secondSkill, SecondSkillPos.transform.position, Quaternion.identity);
             curSecondSkillTime = 0;
+            Instantiate(_secondSkillSound);
         }
 
         //q rlqhs
@@ -110,6 +118,7 @@ public class Player : MonoBehaviour
     public void TakeDamage(int damage)
     {
         HP -= damage;
+        Instantiate(_getDamageSound);
     }
 
     void Die()

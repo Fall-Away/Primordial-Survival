@@ -23,9 +23,7 @@ public class DefAttack : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Slime"))
-        {
             other.GetComponent<PMonster>().TakeDamage(damage);
-        }
         if (other.gameObject.CompareTag("Bat"))
             other.GetComponent<Bat>().TakeDamage(damage);
         if (other.gameObject.CompareTag("Boss"))
