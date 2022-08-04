@@ -8,19 +8,25 @@ public class PMonster : MonoBehaviour
     SpriteRenderer spriteRenderer;
     Vector2 attackVel;
     public GameObject effectSound;
-    public Transform player;
     public float speed = 5;
-    public float dmg = 1;
+    public float damage = 1;
     private bool isGround;
     public float maxHp;
     public float currentHp;
     private bool isdie;
+
+    private Transform player;
+    private GameObject Playerobj;
+
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         currentHp = maxHp;
+
+        Playerobj = GameObject.FindGameObjectWithTag("Player");
+        player = Playerobj.transform;
     }
 
     void Update()
@@ -46,9 +52,20 @@ public class PMonster : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.tag == "Ground")
+        {
             isGround = true;
-        if (collision.gameObject.tag == "Player")
+        }
+        if (collision.gameObject.tag == "Skill")
+        {
             Instantiate(effectSound);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.CompareTag("Player"))
+        {
+            other.GetComponent<PlayerHP>().TakeDamge(damage);
+        }
     }
 
     public void TakeDamage(float damage)
@@ -89,17 +106,17 @@ public class PMonster : MonoBehaviour
         gameObject.GetComponent<BoxCollider2D>().enabled = true;
     }
 
-    void ChasePlayer() //플레이어 추적 
+    void ChasePlayer()
     {
-        if(transform.position.x<player.transform.position.x)
+        if (transform.position.x < player.position.x)
         {
-            transform.position += Vector3.right * speed *Time.deltaTime;
-            transform.eulerAngles = new Vector3(0,180,0);  
+            transform.position += Vector3.right * speed * Time.deltaTime;
+            transform.eulerAngles = new Vector3(0, 180, 0);
         }
         else
-        {  
-            transform.position += Vector3.left * speed *Time.deltaTime;
-            transform.eulerAngles = new Vector3(0,0,0);    
+        {
+            transform.position += Vector3.left * speed * Time.deltaTime;
+            transform.eulerAngles = new Vector3(0, 0, 0);
         }
     }
 }

@@ -15,7 +15,7 @@ public class Player : MonoBehaviour
     [SerializeField] float defSkillTime = 5f;
     [SerializeField] float firstSkillTime = 5;
     [SerializeField] float secondSkillTime = 8;
-    [SerializeField]float curDefSkillTime;
+    float curDefSkillTime;
     float curFirstSkillTime;
     float curSecondSkillTime;
 
@@ -101,6 +101,12 @@ public class Player : MonoBehaviour
         //w skill
         //e skill
     }
+
+    public void TakeDamage(int damage)
+    {
+        HP -= damage;
+    }
+
     void Die()
     {
         if (HP <= 0)

@@ -6,7 +6,7 @@ TagManager:
   tags:
   - Ground
   - Enemy
-  - Skill
+  - Slime
   layers:
   - Default
   - TransparentFX
