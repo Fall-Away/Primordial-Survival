@@ -39,6 +39,7 @@ public class Player : MonoBehaviour
     bool facingRight;
     private bool _playerDie = false;
 
+
     void Start()
     {
         startScale=transform.localScale;

@@ -10,9 +10,9 @@ public class EnemySpawnManager : MonoBehaviour //����ģ �ڵ�
     [SerializeField] int fast = 1;
 
 
-    private float _time = 0;
+    public float _time = 0;
 
-    #region �ѹ� ������ ���Ѱ�
+    #region 한번 실행을 위한거
     private bool one = false;
     private bool two = false;
     private bool three = false;
@@ -35,9 +35,9 @@ public class EnemySpawnManager : MonoBehaviour //����ģ �ڵ�
     private EnemySpawner left_Boss;
     #endregion
 
+
     private void Awake()
     {
-   
         #region Enemys
         left_Enemy = GameObject.Find("Left_Enemy").GetComponent<EnemySpawner>();
         right_Enemy = GameObject.Find("Right_Enemy").GetComponent<EnemySpawner>();
@@ -51,9 +51,9 @@ public class EnemySpawnManager : MonoBehaviour //����ģ �ڵ�
 
     private void Update()
     {
-       
-         _time = Time.time;
-        #region �Լ� ���ۿ� ��ũ��Ʈ
+         _time += Time.deltaTime;
+
+        #region 시작함수
         if (_time < 60 && one == false)
             Spawn1();
         if (60 < _time && _time < 120 && two == false)
@@ -77,7 +77,7 @@ public class EnemySpawnManager : MonoBehaviour //����ģ �ڵ�
         #endregion
     }
 
-    #region ���ܿ� �Լ���
+    #region 역겨운 함수들
     private void Spawn1()
     {
         left_Enemy.StartSpawn(slowslow);
@@ -178,5 +178,4 @@ public class EnemySpawnManager : MonoBehaviour //����ģ �ڵ�
         ten = true;
     }
     #endregion
-
 }
