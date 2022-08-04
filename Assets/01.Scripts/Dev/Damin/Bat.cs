@@ -11,12 +11,34 @@ public class Bat : MonoBehaviour
 private int damage = 2;
 public int HP=2;
  Vector3 vec;
-[SerializeField]AudioSource attacksound;
+[SerializeField]
+AudioSource attacksound;
+ [SerializeField]
+private Transform boxPos;
+[SerializeField]
+    private Vector2 boxsize;
 
  void Update()
  {
   vec= new Vector3(rad,0,0);
    transform.position+= vec * speed * Time.deltaTime;
+   Collider2D[] collider2Ds =Physics2D.OverlapBoxAll(boxPos.position,boxsize,0);
+      foreach(Collider2D collider in collider2Ds)
+      {
+          if(collider.tag == "Ground")            
+         {                
+          if(rad == -1)
+            {
+             rad= 1;
+                  transform.eulerAngles= new Vector3(0,0,0);
+            }
+              else
+              {
+                rad= -1;
+                   transform.eulerAngles= new Vector3(0,180,0);
+              }
+         }
+       }
 
  }
 
@@ -54,19 +76,7 @@ public int HP=2;
       audio.transform.position=transform.position;
         other.GetComponent<Player>().HP -= damage;
       }
-         if(other.CompareTag("Ground"))
-         {
-          if(rad == -1)
-            {
-             rad= 1;
-                  transform.eulerAngles= new Vector3(0,0,0);
-            }
-              else
-              {
-                rad= -1;
-                   transform.eulerAngles= new Vector3(0,180,0);
-              }
-         }
+
     }
     public void TakeDamage(int damage)
     {
@@ -83,4 +93,10 @@ public int HP=2;
        yield return new WaitForSeconds(0.67f);
        Destroy(gameObject);
     }
+    private void OnDrawGizmos()
+      {
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireCube(boxPos.position,boxsize);
+
+      }
 }
