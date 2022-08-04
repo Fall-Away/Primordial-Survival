@@ -99,6 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 7
   HP: 2
+  attacksound: {fileID: 6728545001157244467, guid: b2e104febe4b45545aa7bb09c00d38c7, type: 3}
 --- !u!95 &757058932
 Animator:
   serializedVersion: 3

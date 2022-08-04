@@ -11,7 +11,7 @@ public class Bat : MonoBehaviour
 private int damage = 2;
 public int HP=2;
  Vector3 vec;
-
+[SerializeField]AudioSource attacksound;
 
  void Update()
  {
@@ -48,18 +48,12 @@ public int HP=2;
 
  private void OnTriggerEnter2D(Collider2D other)
     {
-      Debug.Log("1111");
       if(other.CompareTag("Player"))
       {
+      AudioSource audio= Instantiate(attacksound);
+      audio.transform.position=transform.position;
         other.GetComponent<Player>().HP -= damage;
       }
-        //여기 있는것들은 병합하고나서 플래이어 공격이랑 연동해서
-        //if(isDie == false)
-                // if()
-                // {
-                //     StartCoroutine(die());
-                // }
-         //}
          if(other.CompareTag("Ground"))
          {
           if(rad == -1)
@@ -76,11 +70,11 @@ public int HP=2;
     }
     public void TakeDamage(int damage)
     {
-      HP-=damage;
-        if(HP<=0)
-   {
-    StartCoroutine(die());
-   }
+        HP-=damage;
+              if(HP<=0)
+        {
+          StartCoroutine(die());
+        }
     }
     IEnumerator die()
     {
@@ -89,5 +83,4 @@ public int HP=2;
        yield return new WaitForSeconds(0.67f);
        Destroy(gameObject);
     }
-
 }
