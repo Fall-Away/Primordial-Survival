@@ -39,6 +39,7 @@ public class Player : MonoBehaviour
     bool facingRight;
     private bool _playerDie = false;
 
+
     void Start()
     {
         startScale=transform.localScale;
@@ -136,9 +137,6 @@ public class Player : MonoBehaviour
         {
             isJump = false;
         }
-
-        if (collision.gameObject.CompareTag("Slime"))
-            collision.collider.gameObject.GetComponent<PMonster>().TakeDamage(0);
     }
 
     IEnumerator PlayerDie()
