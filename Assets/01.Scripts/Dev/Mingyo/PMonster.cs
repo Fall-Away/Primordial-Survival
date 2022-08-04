@@ -88,8 +88,7 @@ public class PMonster : MonoBehaviour
         
         if(currentHp <= 0)
         {
-            gameObject.SetActive(false);
-            gameObject.GetComponent<BoxCollider2D>().enabled = false;
+            Destroy(gameObject);
         }
     }
 
