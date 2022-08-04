@@ -9,7 +9,7 @@ public class PMonster : MonoBehaviour
     Vector2 attackVel;
     public GameObject effectSound;
     public float speed = 5;
-    public float damage = 1;
+    public int damage = 1;
     private bool isGround;
     public float maxHp;
     public float currentHp;
@@ -59,14 +59,13 @@ public class PMonster : MonoBehaviour
         {
             Instantiate(effectSound);
         }
-    }
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if(other.gameObject.CompareTag("Player"))
+
+        if (collision.collider.gameObject.CompareTag("Player"))
         {
-            other.GetComponent<PlayerHP>().TakeDamge(damage);
+            collision.collider.GetComponent<Player>().TakeDamage(damage);
         }
     }
+
 
     public void TakeDamage(float damage)
     {

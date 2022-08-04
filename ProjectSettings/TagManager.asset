@@ -7,6 +7,9 @@ TagManager:
   - Ground
   - Enemy
   - Slime
+  - Skill
+  - Bat
+  - Boss
   layers:
   - Default
   - TransparentFX

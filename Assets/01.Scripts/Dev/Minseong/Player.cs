@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -31,6 +32,8 @@ public class Player : MonoBehaviour
 
     bool isJump;
     bool facingRight;
+    private bool _playerDie = false;
+
     void Start()
     {
         startScale=transform.localScale;
@@ -41,6 +44,8 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        if (_playerDie == true) return;
+
         curDefSkillTime += Time.deltaTime;
         curFirstSkillTime += Time.deltaTime;
         curSecondSkillTime += Time.deltaTime;
@@ -112,6 +117,8 @@ public class Player : MonoBehaviour
         if (HP <= 0)
         {
             animator.SetBool("isDie", true);
+            _playerDie = true;
+            StartCoroutine(PlayerDie());
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -120,5 +127,14 @@ public class Player : MonoBehaviour
         {
             isJump = false;
         }
+
+        if (collision.gameObject.CompareTag("Slime"))
+            collision.collider.gameObject.GetComponent<PMonster>().TakeDamage(0);
+    }
+
+    IEnumerator PlayerDie()
+    {
+        yield return new WaitForSeconds(1.3f);
+        SceneManager.LoadScene(3);
     }
 }

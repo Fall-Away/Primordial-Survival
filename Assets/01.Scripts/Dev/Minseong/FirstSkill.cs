@@ -20,5 +20,9 @@ public class FirstSkill : MonoBehaviour
         {
             other.GetComponent<PMonster>().TakeDamage(damage);
         }
+        if (other.gameObject.CompareTag("Bat"))
+            other.GetComponent<Bat>().TakeDamage(damage);
+        if (other.gameObject.CompareTag("Boss"))
+            other.GetComponent<one_Distance_Enemy>().TakeDamage(damage);
     }
 }

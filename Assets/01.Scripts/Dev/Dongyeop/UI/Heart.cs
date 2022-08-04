@@ -9,6 +9,7 @@ public class Heart : MonoBehaviour
     private float _realTime;
 
     private bool _isRun = true;
+    private bool _isBOOOOM = false;
 
     private void Awake()
     {
@@ -19,6 +20,11 @@ public class Heart : MonoBehaviour
     {
         _realTime += Time.deltaTime;
 
+        if (_realTime >= 2f && _isBOOOOM == false)
+        {
+            _animator.SetBool("isBOOOOM", true);
+            _isBOOOOM = true;
+        }
         if (_realTime >= 38f && _isRun == true)
             Run();
     }

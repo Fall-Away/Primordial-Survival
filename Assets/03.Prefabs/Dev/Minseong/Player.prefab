@@ -136,7 +136,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1432433253
   m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingOrder: 32767
   m_Sprite: {fileID: 6674675952924178825, guid: 5f7379ef59b3d4046bfa0619e4e7d7e6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -165,7 +165,6 @@ MonoBehaviour:
   defSkillTime: 0
   firstSkillTime: 5
   secondSkillTime: 8
-  curDefSkillTime: 0
   HP: 10
   _defAttack: {fileID: 4666187751193414532, guid: a2b2834364633d0489916d7501798597, type: 3}
   DefAttackPos: {fileID: 2395304428170821798}
