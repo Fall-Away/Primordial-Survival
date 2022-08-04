@@ -16,7 +16,7 @@ public class FirstSkillCoolTIme : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-                SkillCoolTime();
+        SkillCoolTime();
     }
 
     private void SkillCoolTime()  //쿨타임
@@ -34,7 +34,7 @@ public class FirstSkillCoolTIme : MonoBehaviour
             
             if(text.text == "0")
             {
-                text.text = "";
+                text.text = "Ready";
                 isCool = false;
             }
         }

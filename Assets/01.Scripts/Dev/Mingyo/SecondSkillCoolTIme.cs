@@ -34,7 +34,7 @@ public class SecondSkillCoolTIme : MonoBehaviour
             
             if(text.text == "0")
             {
-                text.text = "";
+                text.text = "Ready";
                 isCool = false;
             }
         }
