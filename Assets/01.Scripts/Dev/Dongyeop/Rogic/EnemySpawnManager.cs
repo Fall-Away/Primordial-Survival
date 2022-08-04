@@ -54,25 +54,25 @@ public class EnemySpawnManager : MonoBehaviour //����ģ �ڵ�
          _time += Time.deltaTime;
 
         #region 시작함수
-        if (_time < 60 && one == false)
+        if (_time < 30 && one == false)
             Spawn1();
-        if (60 < _time && _time < 120 && two == false)
+        if (30 < _time && _time < 60 && two == false)
             Spawn2();
-        if (120 < _time && _time < 180 && three == false)
+        if (60 < _time && _time < 90 && three == false)
             Spawn3();
-        if (180 < _time && _time < 240 && four == false)
+        if (90 < _time && _time < 120 && four == false)
             Spawn4();
-        if (240 < _time && _time < 300 && five == false)
+        if (120 < _time && _time < 150 && five == false)
             Spawn5();
-        if (300 < _time && _time < 360 && six == false)
+        if (150 < _time && _time < 180 && six == false)
             Spawn6();
-        if (360 < _time && _time < 420 && seven == false)
+        if (180 < _time && _time < 210 && seven == false)
             Spawn7();
-        if (420 < _time && _time < 480 && eight == false)
+        if (210 < _time && _time < 240 && eight == false)
             Spawn8();
-        if (480 < _time && _time < 540 && nine == false)
+        if (240 < _time && _time < 270 && nine == false)
             Spawn9();
-        if (540 < _time && _time < 600 && ten == false)
+        if (270 < _time && _time < 300 && ten == false)
             Spawn10();
         #endregion
     }

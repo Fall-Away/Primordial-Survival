@@ -29,17 +29,17 @@ public class SoundManager : MonoBehaviour
             _firstAudio = true;
             Instantiate(audio1);
         }
-        else if (_realTime >= 211 && !_secondAudio)
+        else if (_realTime >= 100 && !_secondAudio)
         {
             _secondAudio = true;
             Instantiate(audio2);
         }
-        else if (_realTime >= 417 && !_thirdAudio)
+        else if (_realTime >= 200 && !_thirdAudio)
         {
             _thirdAudio = true;
             Instantiate(audio3);
         }
-        else if (_realTime >= 600 && !_bossAudio)
+        else if (_realTime >= 300 && !_bossAudio)
         {
             _bossAudio = true;
             Instantiate(bossAudio);

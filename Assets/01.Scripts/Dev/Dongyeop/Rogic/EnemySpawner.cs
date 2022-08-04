@@ -23,13 +23,13 @@ public class EnemySpawner : MonoBehaviour
         switch (spawnTime)
         {
             case 1:
-                _spawnScoreMax = 60;
-                break;
-            case 2:
                 _spawnScoreMax = 30;
                 break;
+            case 2:
+                _spawnScoreMax = 15;
+                break;
             case 3:
-                _spawnScoreMax = 20;
+                _spawnScoreMax = 10;
                 break;
             default:
                 _spawnScoreMax = 1;
