@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DefAttack : MonoBehaviour
 {
-    [SerializeField] float damage;
+    [SerializeField] int damage;
     void Start()
     {
         float rt = C(GameObject.Find("Player").GetComponent<Transform>().localScale.x);
@@ -20,11 +20,12 @@ public class DefAttack : MonoBehaviour
     {
         Destroy(gameObject,0.3f);
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (other.gameObject.CompareTag("Slime"))
         {
-            //collision.GetComponent<Enemy>().HP -= damage;
+            other.GetComponent<PMonster>().TakeDamage(damage);
         }
     }
+
 }

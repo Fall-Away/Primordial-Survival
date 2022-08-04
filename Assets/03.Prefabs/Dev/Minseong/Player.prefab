@@ -76,7 +76,7 @@ GameObject:
   - component: {fileID: 2395304429188044622}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -165,6 +165,7 @@ MonoBehaviour:
   defSkillTime: 0
   firstSkillTime: 5
   secondSkillTime: 8
+  curDefSkillTime: 0
   HP: 10
   _defAttack: {fileID: 4666187751193414532, guid: a2b2834364633d0489916d7501798597, type: 3}
   DefAttackPos: {fileID: 2395304428170821798}
