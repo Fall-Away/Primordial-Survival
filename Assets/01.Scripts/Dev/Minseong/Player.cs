@@ -83,7 +83,6 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             rigid.AddForce(Vector2.up * jumpPower);
-            isJump = true;
             Debug.Log("jump");
         }
     }
