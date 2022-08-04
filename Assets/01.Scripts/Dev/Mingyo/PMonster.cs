@@ -10,7 +10,7 @@ public class PMonster : MonoBehaviour
     public GameObject effectSound;
     public Transform player;
     public float speed = 5;
-    public float dmg = 1;
+    public float damage = 1;
     private bool isGround;
     public float maxHp;
     public float currentHp;
@@ -46,9 +46,20 @@ public class PMonster : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.tag == "Ground")
+        {
             isGround = true;
-        if (collision.gameObject.tag == "Player")
+        }
+        if (collision.gameObject.tag == "Skill")
+        {
             Instantiate(effectSound);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.CompareTag("Player"))
+        {
+            other.GetComponent<PlayerHP>().TakeDamge(damage);
+        }
     }
 
     public void TakeDamage(float damage)

@@ -7,7 +7,7 @@ public class _test : MonoBehaviour
     public float damage = 1;
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Enemy"))
+        if (other.gameObject.CompareTag("Slime"))
         {
             other.GetComponent<PMonster>().TakeDamage(damage);
         }
