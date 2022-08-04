@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     Animator animator;
     SpriteRenderer spriteRenderer;
     Vector3 startScale;
+    BoxCollider2D boxCollid;
 
     [SerializeField] float moveSpeed;
     [SerializeField] float jumpPower;
@@ -38,7 +39,6 @@ public class Player : MonoBehaviour
     bool isJump;
     bool facingRight;
     private bool _playerDie = false;
-
 
     void Start()
     {
@@ -74,6 +74,10 @@ public class Player : MonoBehaviour
         {
             rigid.AddForce(Vector2.up * jumpPower);
             isJump = true;
+        }
+        //if (boxCollid.IsTouchingLayers(10/*여기에여기에여기에여기에여기에 그라운드 레이어 너으셈*/))
+        {
+            isJump = false;
         }
 
         if(x > 0 && facingRight) { Flip(); }
@@ -120,6 +124,17 @@ public class Player : MonoBehaviour
     {
         HP -= damage;
         Instantiate(_getDamageSound);
+        StartCoroutine(Wait());
+    }
+    IEnumerator Wait()
+    {
+        gameObject.GetComponent<SpriteRenderer>().color = Color.red;
+        Debug.Log("red");
+        yield return new WaitForSeconds(0.1f);
+        Debug.Log("기달");
+        gameObject.GetComponent<SpriteRenderer>().color = Color.white;
+        Debug.Log("원");
+        StopCoroutine(Wait());
     }
 
     void Die()
@@ -133,16 +148,14 @@ public class Player : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            isJump = false;
-        }
+
+        if (collision.gameObject.CompareTag("Slime"))
+            collision.collider.gameObject.GetComponent<PMonster>().TakeDamage(0);
     }
 
     IEnumerator PlayerDie()
     {
         yield return new WaitForSeconds(1.3f);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         SceneManager.LoadScene(3);
     }
 }
