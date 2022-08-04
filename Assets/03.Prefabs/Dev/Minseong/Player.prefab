@@ -165,12 +165,16 @@ MonoBehaviour:
   defSkillTime: 0
   firstSkillTime: 5
   secondSkillTime: 8
-  HP: 10
+  HP: 100
   _defAttack: {fileID: 4666187751193414532, guid: a2b2834364633d0489916d7501798597, type: 3}
   DefAttackPos: {fileID: 2395304428170821798}
+  _defAttackSound: {fileID: 6144585609842927009, guid: 080840bf79b4eb24b9e55a9762b9bdbf, type: 3}
   _firstSkill: {fileID: 1947976872558701297, guid: ef72516e2d0f88142986cedcd6b3ba13, type: 3}
+  _firstSkillSound: {fileID: 6326624899741035309, guid: 645353f6d45bf654b9b17297da4427a5, type: 3}
   _secondSkill: {fileID: 7720280190631995048, guid: a7507d7b502e78c4797ce5a3a2e71232, type: 3}
   SecondSkillPos: {fileID: 2395304427315081351}
+  _secondSkillSound: {fileID: 6942989369602176401, guid: c097687d9fedc9e42ba6c4cff0c8da59, type: 3}
+  _getDamageSound: {fileID: 7076219222015778771, guid: 2ad955cca9d59a042b22adfccfbaecd8, type: 3}
 --- !u!50 &2395304429188044658
 Rigidbody2D:
   serializedVersion: 4

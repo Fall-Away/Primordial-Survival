@@ -38,5 +38,8 @@ public class SecondSkill : MonoBehaviour
             other.GetComponent<Bat>().TakeDamage(damage);
         if (other.gameObject.CompareTag("Boss"))
             other.GetComponent<one_Distance_Enemy>().TakeDamage(damage);
+
+        if (other.gameObject.CompareTag("Ground"))
+            Destroy(gameObject);
     }
 }
