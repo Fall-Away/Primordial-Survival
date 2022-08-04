@@ -4,24 +4,15 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    ObjectPooler pooler;
-
+    [SerializeField] GameObject prefab;
+    
     private int _spawnScore = 0;
     private int _spawnScoreMax;
 
-    private void Awake()
-    {
-        pooler = GetComponent<ObjectPooler>();
-    }
 
     public void StartSpawn(int spawnTime)
     {
         StartCoroutine(Spawn(spawnTime));
-    }
-
-    public void ReturnYOU(GameObject GO)
-    {
-        pooler.ReturnObject(GO);
     }
 
 
@@ -49,7 +40,7 @@ public class EnemySpawner : MonoBehaviour
         {
             _spawnScore++;
 
-            pooler.SpawnObject(transform.position, Quaternion.identity);
+            Instantiate(prefab, transform.position, Quaternion.identity);
 
             if (_spawnScore == _spawnScoreMax)
                 break;
