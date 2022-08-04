@@ -147,12 +147,6 @@ public class Player : MonoBehaviour
             StartCoroutine(PlayerDie());
         }
     }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-
-        if (collision.gameObject.CompareTag("Slime"))
-            collision.collider.gameObject.GetComponent<PMonster>().TakeDamage(0);
-    }
 
     IEnumerator PlayerDie()
     {
