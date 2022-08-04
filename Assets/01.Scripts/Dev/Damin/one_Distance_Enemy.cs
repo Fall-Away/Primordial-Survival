@@ -27,10 +27,12 @@ public class one_Distance_Enemy : MonoBehaviour
     private Vector2 boxsize;
      private bool attacknow=false;
    private  GameObject Playerobj;
-   private bool isDie;
+   SpriteRenderer spriteRenderer;
+ 
 
 void Start()
 {
+  spriteRenderer = GetComponent<SpriteRenderer>();
   Playerobj = GameObject.FindGameObjectWithTag("Player");
   player = Playerobj.transform;
   animator=GetComponent<Animator>();
@@ -65,10 +67,6 @@ void Start()
            curTime-=Time.deltaTime;
         }
      
- if(HP<=0 && isDie ==false)
-      {
-        StartCoroutine(die());
-      }
         
     }
 
@@ -126,9 +124,17 @@ void Start()
                   attacknow=false;
              
     }
+    public void TakeDamage(int damage)
+    {
+        HP-=damage;
+        StartCoroutine(HitColorAnimation());
+        if(HP<=0)
+          {
+            StartCoroutine(die());
+          }
+    }
     IEnumerator die()
     {
-      isDie=true;
       attacknow=true;
       curTime=100;
       animator.SetBool("walk",false);
@@ -137,5 +143,13 @@ void Start()
        animator.SetTrigger("die");
        yield return new WaitForSeconds(1.9f);
        Destroy(gameObject);
+    }
+    IEnumerator HitColorAnimation()
+    {
+        spriteRenderer.color = Color.red;
+
+        yield return new WaitForSeconds(0.5f);
+
+        spriteRenderer.color = Color.white;
     }
 }
