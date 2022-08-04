@@ -137,9 +137,6 @@ public class Player : MonoBehaviour
         {
             isJump = false;
         }
-
-        if (collision.gameObject.CompareTag("Slime"))
-            collision.collider.gameObject.GetComponent<PMonster>().TakeDamage(0);
     }
 
     IEnumerator PlayerDie()
