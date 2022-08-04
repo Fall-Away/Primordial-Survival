@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5260767060658389104}
   m_Layer: 0
   m_Name: ProximityMonster
-  m_TagString: Enemy
+  m_TagString: Slime
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120,7 +120,7 @@ MonoBehaviour:
   effectSound: {fileID: 7973067352170921174, guid: 6a8d3831580b7874880629cc463a3635, type: 3}
   player: {fileID: 2395304429188044660, guid: dc750305ada147841b22813e43adf796, type: 3}
   speed: 5
-  dmg: 1
+  damage: 1
   maxHp: 4
   currentHp: 4
 --- !u!61 &5260767060658389105
