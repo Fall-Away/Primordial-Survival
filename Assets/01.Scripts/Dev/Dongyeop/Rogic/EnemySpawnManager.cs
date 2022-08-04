@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemySpawnManager : MonoBehaviour //°³¹ÌÄ£ ÄÚµå
+public class EnemySpawnManager : MonoBehaviour //ï¿½ï¿½ï¿½ï¿½Ä£ ï¿½Úµï¿½
 {
     [Header("SpawnTime")]
     [SerializeField] int slowslow = 3;
@@ -12,7 +12,7 @@ public class EnemySpawnManager : MonoBehaviour //°³¹ÌÄ£ ÄÚµå
 
     private float _time = 0;
 
-    #region ÇÑ¹ø ½ÇÇàÀ» À§ÇÑ°Å
+    #region ï¿½Ñ¹ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ñ°ï¿½
     private bool one = false;
     private bool two = false;
     private bool three = false;
@@ -35,10 +35,9 @@ public class EnemySpawnManager : MonoBehaviour //°³¹ÌÄ£ ÄÚµå
     private EnemySpawner left_Boss;
     #endregion
 
-
-
     private void Awake()
     {
+   
         #region Enemys
         left_Enemy = GameObject.Find("Left_Enemy").GetComponent<EnemySpawner>();
         right_Enemy = GameObject.Find("Right_Enemy").GetComponent<EnemySpawner>();
@@ -52,9 +51,9 @@ public class EnemySpawnManager : MonoBehaviour //°³¹ÌÄ£ ÄÚµå
 
     private void Update()
     {
-        _time = Time.time;
-
-        #region ÇÔ¼ö ½ÃÀÛ¿ë ½ºÅ©¸³Æ®
+       
+         _time = Time.time;
+        #region ï¿½Ô¼ï¿½ ï¿½ï¿½ï¿½Û¿ï¿½ ï¿½ï¿½Å©ï¿½ï¿½Æ®
         if (_time < 60 && one == false)
             Spawn1();
         if (60 < _time && _time < 120 && two == false)
@@ -78,7 +77,7 @@ public class EnemySpawnManager : MonoBehaviour //°³¹ÌÄ£ ÄÚµå
         #endregion
     }
 
-    #region ¿ª°Ü¿î ÇÔ¼öµé
+    #region ï¿½ï¿½ï¿½Ü¿ï¿½ ï¿½Ô¼ï¿½ï¿½ï¿½
     private void Spawn1()
     {
         left_Enemy.StartSpawn(slowslow);
@@ -179,4 +178,5 @@ public class EnemySpawnManager : MonoBehaviour //°³¹ÌÄ£ ÄÚµå
         ten = true;
     }
     #endregion
+
 }

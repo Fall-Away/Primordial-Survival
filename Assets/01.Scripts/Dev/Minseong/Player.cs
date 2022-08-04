@@ -144,6 +144,7 @@ public class Player : MonoBehaviour
     IEnumerator PlayerDie()
     {
         yield return new WaitForSeconds(1.3f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         SceneManager.LoadScene(3);
     }
 }

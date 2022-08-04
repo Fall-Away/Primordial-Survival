@@ -1138,26 +1138,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Happending_Particle
       objectReference: {fileID: 0}
-    - target: {fileID: 506923530126297906, guid: e517478bc20f9cb489d959c1bd6b3be1, type: 3}
-      propertyPath: InitialModule.startSize.scalar
-      value: 0.36
-      objectReference: {fileID: 0}
-    - target: {fileID: 506923530126297906, guid: e517478bc20f9cb489d959c1bd6b3be1, type: 3}
-      propertyPath: InitialModule.startColor.maxGradient.ctime1
-      value: 10794
-      objectReference: {fileID: 0}
-    - target: {fileID: 506923530126297906, guid: e517478bc20f9cb489d959c1bd6b3be1, type: 3}
-      propertyPath: InitialModule.startColor.maxGradient.ctime2
-      value: 23901
-      objectReference: {fileID: 0}
-    - target: {fileID: 506923530126297906, guid: e517478bc20f9cb489d959c1bd6b3be1, type: 3}
-      propertyPath: InitialModule.startColor.maxGradient.ctime3
-      value: 36623
-      objectReference: {fileID: 0}
-    - target: {fileID: 506923530126297906, guid: e517478bc20f9cb489d959c1bd6b3be1, type: 3}
-      propertyPath: InitialModule.startColor.maxGradient.ctime4
-      value: 51464
-      objectReference: {fileID: 0}
     - target: {fileID: 506923530126297909, guid: e517478bc20f9cb489d959c1bd6b3be1, type: 3}
       propertyPath: m_RootOrder
       value: 4
