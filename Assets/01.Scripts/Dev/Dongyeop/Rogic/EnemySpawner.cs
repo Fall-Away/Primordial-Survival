@@ -6,30 +6,31 @@ public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] GameObject prefab;
     
-    private int _spawnScore = 0;
-    private int _spawnScoreMax;
+    [SerializeField] private int _spawnScore = 0;
+    [SerializeField] private int _spawnScoreMax;
 
 
-    public void StartSpawn(int spawnTime)
+    public void StartSpawn(float spawnTime)
     {
         StartCoroutine(Spawn(spawnTime));
+        print(spawnTime);
     }
 
 
-    IEnumerator Spawn(int spawnTime)
+    IEnumerator Spawn(float spawnTime)
     {
         _spawnScore = 0;
 
         switch (spawnTime)
         {
-            case 1:
-                _spawnScoreMax = 30;
+            case 2.5f:
+                _spawnScoreMax = 12;
                 break;
-            case 2:
-                _spawnScoreMax = 15;
+            case 3.1f:
+                _spawnScoreMax = 9;
                 break;
-            case 3:
-                _spawnScoreMax = 10;
+            case 3.5f:
+                _spawnScoreMax = 8;
                 break;
             default:
                 _spawnScoreMax = 1;

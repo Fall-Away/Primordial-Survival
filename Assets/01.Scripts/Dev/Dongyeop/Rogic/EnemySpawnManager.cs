@@ -5,9 +5,9 @@ using UnityEngine;
 public class EnemySpawnManager : MonoBehaviour //����ģ �ڵ�
 {
     [Header("SpawnTime")]
-    [SerializeField] int slowslow = 3;
-    [SerializeField] int slow = 2;
-    [SerializeField] int fast = 1;
+    [SerializeField] float slowslow = 3.5f;
+    [SerializeField] float slow = 3.1f;
+    [SerializeField] float fast = 2.5f;
 
 
     public float _time = 0;
@@ -80,98 +80,98 @@ public class EnemySpawnManager : MonoBehaviour //����ģ �ڵ�
     #region 역겨운 함수들
     private void Spawn1()
     {
-        left_Enemy.StartSpawn(slowslow);
+        left_Enemy.StartSpawn(3.5f);
         one = true;
     }
 
     private void Spawn2()
     {
-        left_Enemy.StartSpawn(slowslow);
-        right_Enemy.StartSpawn(slowslow);
+        left_Enemy.StartSpawn(3.5f);
+        right_Enemy.StartSpawn(3.5f);
         two = true;
     }
     
     private void Spawn3()
     {
-        left_Enemy.StartSpawn(slow);
-        right_Enemy.StartSpawn(slow);
+        left_Enemy.StartSpawn(3.1f);
+        right_Enemy.StartSpawn(3.1f);
 
         three = true;
     }
     
     private void Spawn4()
     {
-        left_Enemy.StartSpawn(slowslow);
-        right_Enemy.StartSpawn(slowslow);
+        left_Enemy.StartSpawn(3.5f);
+        right_Enemy.StartSpawn(3.5f);
 
-        left_fly_Enemy.StartSpawn(slowslow);
-        right_fly_Enemy.StartSpawn(slowslow);
+        left_fly_Enemy.StartSpawn(3.5f);
+        right_fly_Enemy.StartSpawn(3.5f);
 
         four = true;
     }
     
     private void Spawn5()
     {
-        left_Enemy.StartSpawn(slow);
-        right_Enemy.StartSpawn(slow);
+        left_Enemy.StartSpawn(3.1f);
+        right_Enemy.StartSpawn(3.1f);
 
-        left_fly_Enemy.StartSpawn(slow);
-        right_fly_Enemy.StartSpawn(slow);
+        left_fly_Enemy.StartSpawn(3.1f);
+        right_fly_Enemy.StartSpawn(3.1f);
 
         five = true;
     }
     
     private void Spawn6()
     {
-        left_Enemy.StartSpawn(fast);
-        right_Enemy.StartSpawn(fast);
+        left_Enemy.StartSpawn(2.5f);
+        right_Enemy.StartSpawn(2.5f);
 
-        left_fly_Enemy.StartSpawn(slow);
-        right_fly_Enemy.StartSpawn(slow);
+        left_fly_Enemy.StartSpawn(3.1f);
+        right_fly_Enemy.StartSpawn(3.1f);
 
         six = true;
     }
     
     private void Spawn7()
     {
-        left_Enemy.StartSpawn(fast);
-        right_Enemy.StartSpawn(fast);
+        left_Enemy.StartSpawn(2.5f);
+        right_Enemy.StartSpawn(2.5f);
 
-        left_fly_Enemy.StartSpawn(slow);
-        right_fly_Enemy.StartSpawn(slow);
+        left_fly_Enemy.StartSpawn(3.1f);
+        right_fly_Enemy.StartSpawn(3.1f);
 
         seven = true;
     }
     
     private void Spawn8()
     {
-        left_Enemy.StartSpawn(fast);
-        right_Enemy.StartSpawn(fast);
+        left_Enemy.StartSpawn(2.5f);
+        right_Enemy.StartSpawn(2.5f);
 
-        left_fly_Enemy.StartSpawn(slow);
-        right_fly_Enemy.StartSpawn(slow);
+        left_fly_Enemy.StartSpawn(3.1f);
+        right_fly_Enemy.StartSpawn(3.1f);
 
         eight = true;
     }
     
     private void Spawn9()
     {
-        left_Enemy.StartSpawn(fast);
-        right_Enemy.StartSpawn(fast);
+        left_Enemy.StartSpawn(2.5f);
+        right_Enemy.StartSpawn(2.5f);
 
-        left_fly_Enemy.StartSpawn(fast);
-        right_fly_Enemy.StartSpawn(fast);
+        left_fly_Enemy.StartSpawn(2.5f);
+        right_fly_Enemy.StartSpawn(2.5f);
 
         nine = true;
     }
     
     private void Spawn10()
     {
-        left_Enemy.StartSpawn(fast);
-        right_Enemy.StartSpawn(fast);
+        left_Enemy.StartSpawn(2.5f);
+        right_Enemy.StartSpawn(2.5f);
 
-        left_fly_Enemy.StartSpawn(fast);
-        right_fly_Enemy.StartSpawn(fast);
+        left_fly_Enemy.StartSpawn(2.5f);
+        right_fly_Enemy.StartSpawn(2.5f);
 
         left_Boss.StartSpawn(2147483647);
 
