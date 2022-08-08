@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class one_Distance_Enemy : MonoBehaviour
 {
@@ -144,6 +145,7 @@ void Start()
        gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
        animator.SetTrigger("die");
        yield return new WaitForSeconds(1.9f);
+        SceneManager.LoadScene(2);
        Destroy(gameObject);
     }
     IEnumerator HitColorAnimation()
